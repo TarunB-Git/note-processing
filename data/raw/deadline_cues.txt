@@ -1,0 +1,66 @@
+by
+before
+due
+until
+deadline
+no later than
+on or before
+due by
+asap
+as soon as possible
+functionindocument none
+temporalfunction false
+none temporalfunction
+functionindocument none temporalfunction
+date functionindocument
+type date functionindocument
+date functionindocument none
+temporalfunction false value
+none temporalfunction false
+temporalfunction true
+true functionindocument
+temporalfunction true functionindocument
+true functionindocument none
+event by
+value temporalfunction
+date value temporalfunction
+type duration
+t type duration
+false functionindocument
+temporalfunction false functionindocument
+i action
+class i action
+none temporalfunction true
+temporalfunction true value
+xml version
+xsi nonamespaceschemalocation
+nonamespaceschemalocation http
+xsi nonamespaceschemalocation http
+nonamespaceschemalocation http timeml
+value temporalfunction true
+s before
+before signal
+sid s before
+s before signal
+by the
+false functionindocument none
+elian gonzalez
+event by the
+duration value
+type duration value
+value temporalfunction false
+duration value p
+duration functionindocument
+type duration functionindocument
+duration functionindocument none
+s on
+on signal
+sid s on
+s on signal
+on signal timex
+on the
+event on
+gonzalez s
+before signal the
+timex by
+monday timex

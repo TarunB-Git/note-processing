@@ -1,0 +1,614 @@
+APW20000106.0064.tml	``Nothing is certain concerning his <EVENT eid="e40" class="OCCURRENCE">return</EVENT> to Cuba,'' <EVENT eid="e6" class="REPORTING">said</EVENT> a government
+communique, <EVENT eid="e7" class="OCCURRENCE">read</EVENT> <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-05">Wednesday night</TIMEX3> at a pro-Elian <EVENT eid="e41" class="OCCURRENCE">rally</EVENT> <EVENT eid="e8" class="OCCURRENCE">attended</EVENT> by President
+Fidel Castro.
+APW20000106.0064.tml	Cuban exiles in Miami will <TIMEX3 tid="t2" type="DATE" functionInDocument="NONE" temporalFunction="true" value="PRESENT_REF">now</TIMEX3> ``<EVENT eid="e58" class="OCCURRENCE">proceed</EVENT> with all their resources
+to <EVENT eid="e57" class="OCCURRENCE">impede</EVENT> or <EVENT eid="e9" class="OCCURRENCE">delay</EVENT>'' the decision by the Immigration and Naturalization Service.
+APW20000106.0064.tml	The
+struggle must not <EVENT eid="e16" class="OCCURRENCE">stop</EVENT> for <TIMEX3 tid="t3" type="DURATION" functionInDocument="NONE" temporalFunction="true" value="PT1M">one minute</TIMEX3>!'' <EVENT eid="e17" class="REPORTING">said</EVENT> the message, <EVENT eid="e18" class="OCCURRENCE">read</EVENT> during the <EVENT eid="e48" class="OCCURRENCE">rally</EVENT>
+of several thousand Cuban scientists by Hassan Perez, president of the
+government's University Students Federation.
+APW20000106.0064.tml	ass="OCCURRENCE">returned</EVENT> to his father by
+<TIMEX3 tid="t6" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-14">Jan. 14</TIMEX3>.
+
+
+	   Gonzalez has not <EVENT eid="e36" class="OCCURRENCE">appeared</EVENT> publicly since the <EVENT eid="e56" class="REPORTING">announcem
+NYT20000224.0173.tml	Until <TIMEX3 tid="t3" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-W8">this week</TIMEX3>.
+NYT20000224.0173.tml	Then <EVENT eid="e57" class="OCCURRENCE">came</EVENT> another sister, Georgina, <SIGNAL sid="s3">in</SIGNAL>
+<TIMEX3 tid="t7" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1983">1983</TIMEX3>, <EVENT eid="e58" class="OCCURRENCE">followed</EVENT> by Manuel and Lazaro <SIGNAL sid="s4">in</SIGNAL> <TIMEX3 tid="t8" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1984">1984</TIMEX3>.
+NYT20000224.0173.tml	Labeled ``worms'' and ``traitors''
+by Castro, many weren't able to <EVENT eid="e70" class="OCCURRENCE">speak</EVENT> to _ much less <EVENT eid="e165" class="OCCURRENCE">visit</EVENT> _ their
+relatives for <TIMEX3 tid="t15" type="DURATION" functionInDocument="NONE" temporalFunction="false" value="PXY">years</TIMEX3>.
+NYT20000224.0173.tml	The situation <EVENT eid="e71" class="I_ACTION">began</EVENT> to <EVENT eid="e72" class="OCCURRENCE">relax</EVENT> in the <TIMEX3 tid="t10" type="DATE" functionInDocument="NONE" temporalFunction="false" value="199X">early 1990s</TIMEX3>, with the <EVENT eid="e167" class="OCCURRENCE">crisis</EVENT>
+<EVENT eid="e73" class="ASPECTUAL">triggered</EVENT> by the <EVENT eid="e168" class="OCCURRENCE">end</EVENT> of the former Soviet Union's subsidies.
+NYT20000224.0173.tml	By some estimates, the 700,000 Cubans living in South Florida _
+and elsewhere in the United States _ <EVENT eid="e80" class="OCCURRENCE">send</EVENT> $1 billion <TIMEX3 tid="t11" type="DURATION" functionInDocument="NONE" temporalFunction="true" value="P1Y">a year</TIMEX3> in
+remittances back to their families on the island.
+NYT20000224.0173.tml	The <TIMEX3 tid="t13" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-02-21">day
+before last Tuesday</TIMEX3>'s federal court <EVENT eid="e181" class="OCCURRENCE">hearing</EVENT>, Manuel <EVENT eid="e101" class="OCCURRENCE">went</EVENT> to
+Lazaro's home to <EVENT eid="e102" class="I_ACTION">try</EVENT> to <EVENT eid="e103" class="OCCURRENCE">work</EVENT> out their differences.
+NYT20000601.0442.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ NYT20000601.0442 
+ NEWS STORY 
+ 2000-06-01 23:01 
+
+A2407 &amp;Cx1f; ttj-z
+u a BC-ELIAN-ASYLUM-HNS &amp;LR;      06-01 1102
+
+
+ BC-ELIAN-ASYLUM-HNS 
+
+CUBAN BOY'S MIAMI RELATIVES LOSE RULING ON ASYLUM HEARING 
+
+
+  
+ (For use by New York Times News Service clients)  By KIM COBB 
+c.2000 Houston Chronicle 
+ 
+
+
+   (Undated) Elian Gonzalez will remain in the United States for at
+least <TIMEX3 tid="t13" type="DURATION" functionInDocument="NONE" temporalFunction="true" value="P2W">two more weeks</TIMEX3> even after a federal appeals court <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-06-01">Thursday</TIMEX3>
+<EVENT eid="e2" class="OCCURRENCE">refused</EVENT> to <EVENT eid="e3" class="OCCURRENCE">order</EVENT> a political asylum <EVENT eid="e127" class="OCCURRENCE">hearing</EVENT> for the fought-over
+Cuban child.
+NYT20000601.0442.tml	Thank you.''
+
+
+   Elian was <EVENT eid="e62" class="OCCURRENCE">rescued</EVENT> off the coast of Florida by two American
+fishermen <TIMEX3 tid="t7" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1999-11">last November</TIMEX3> <SIGNAL sid="s2">after</SIGNAL> the boat he was in <EVENT eid="e63" class="OCCURRENCE">capsized</EVENT>.
+NYT20000601.0442.tml	The family <EVENT eid="e89" class="OCCURRENCE">refused</EVENT>, and federal agents <EVENT eid="e90" class="OCCURRENCE">took</EVENT> the child by force
+in a pre-dawn <EVENT eid="e175" class="OCCURRENCE">raid</EVENT> on the Miami relatives' home <SIGNAL sid="s3">on</SIGNAL> <TIMEX3 tid="t9" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-22">April 22</TIMEX3>.
+APW20000107.0318.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW20000107.0318 
+ NEWS STORY 
+ 2000-01-07 22:53 
+
+ Cuban Boy's Relatives File Petition  
+
+
+   MIAMI (AP) -- In efforts to <EVENT eid="e1" class="I_ACTION">prevent</EVENT> Elian Gonzalez's <EVENT eid="e110" class="OCCURRENCE">return</EVENT> to Cuba, an
+anti-Castro lawmaker <EVENT eid="e164" class="OCCURRENCE">subpoenaed</EVENT> him <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-07">Friday</TIMEX3> to <EVENT eid="e165" class="OCCURRENCE">testify</EVENT> before a congressional
+committee and one of his Miami relatives <EVENT eid="e2" class="OCCURRENCE">sought</EVENT> to <EVENT eid="e3" class="OCCURRENCE">become</EVENT> his legal guardian.
+APW20000107.0318.tml	I am the father.''
+
+
+	   Elian was <EVENT eid="e18" class="OCCURRENCE">found</EVENT> <TIMEX3 tid="t3" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1999-11-25">Thanksgiving Day</TIMEX3> <EVENT eid="e116" class="OCCURRENCE">clinging</EVENT> to an inner tube at sea <SIGNAL sid="s3">after</SIGNAL> his
+mother, stepfather and eight other people <EVENT eid="e168" class="OCCURRENCE">drowned</EVENT> while <EVENT eid="e19" class="I_ACTION">trying</EVENT> to <EVENT eid="e20" class="OCCURRENCE">reach</EVENT> Florida
+by boat.
+APW20000107.0318.tml	The boy was <EVENT eid="e21" class="OCCURRENCE">placed</EVENT> with his great-uncle and great-aunt in Miami, but the
+Immigration and Naturalization Service <EVENT eid="e22" class="OCCURRENCE">ruled</EVENT> <TIMEX3 tid="t4" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-05">Wednesday</TIMEX3> that he must be <EVENT eid="e23" class="OCCURRENCE">returned</EVENT>
+to his father in Cuba <SIGNAL sid="s4">by</SIGNAL> <TIMEX3 tid="t5" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-14">Jan.
+APW20000107.0318.tml	to his father in Cuba <SIGNAL sid="s4">by</SIGNAL> <TIMEX3 tid="t5" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-14">Jan. 14</TIMEX3>. The <EVENT eid="e118" class="OCCURRENCE">decision</EVENT> <EVENT eid="e24" class="OCCURRENCE">touched</EVENT> off <EVENT eid="e119" class="
+APW20000107.0318.tml	Neither the lawyers nor Elian's relatives would <EVENT eid="e44" class="OCCURRENCE">comment</EVENT> <SIGNAL sid="s6">before</SIGNAL> the judge's
+<EVENT eid="e137" class="OCCURRENCE">ruling</EVENT>, which is <EVENT eid="e45" class="I_STATE">expected</EVENT> <TIMEX3 tid="t9" type="DURATION" functionInDocument="NONE" temporalFunction="false" value="2000-W2" mod="START">early next week</TIMEX3>.
+APW20000107.0318.tml	It was the most personal and emotional of many held
+<SIGNAL sid="s9">since</SIGNAL> <TIMEX3 tid="t18" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1999-12" mod="START">early December</TIMEX3>, when Cuban President Fidel Castro <EVENT eid="e90" class="I_ACTION">promised</EVENT> mass
+<EVENT eid="e158" class="OCCURRENCE">mobilization</EVENT> until the boy was <EVENT eid="e91" class="OCCURRENCE">returned</EVENT> to his father.
+APW20000115.0209.tml	Castro <EVENT eid="e11" class="OCCURRENCE">attended</EVENT> a <EVENT eid="e67" class="OCCURRENCE">rally</EVENT> <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-06">Thursday</TIMEX3> by media workers at Havana's Palace of
+Conventions to <EVENT eid="e12" class="OCCURRENCE">demand</EVENT> Gonzalez's <EVENT eid="e68" class="OCCURRENCE">return</EVENT>.
+APW20000115.0209.tml	Saying ``nothing is certain'' about Elian's <EVENT eid="e88" class="OCCURRENCE">return</EVENT>, Cuba's government
+<EVENT eid="e28" class="OCCURRENCE">exhorted</EVENT> citizens to <EVENT eid="e29" class="OCCURRENCE">keep</EVENT> <EVENT eid="e30" class="OCCURRENCE">rallying</EVENT>, <SIGNAL sid="s3">after</SIGNAL> the boy's relatives in Miami <EVENT eid="e31" class="REPORTING">said</EVENT> they
+would <EVENT eid="e32" class="OCCURRENCE">look</EVENT> for ways to <EVENT eid="e33" class="OCCURRENCE">get</EVENT> around <TIMEX3 tid="t5" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-05">Wednesday</TIMEX3>'s <EVENT eid="e89" class="OCCURRENCE">ruling</EVENT> by the U.S.
+APW20000115.0209.tml	ate</EVENT> the child <SIGNAL sid="s4">by</SIGNAL> <TIMEX3 tid="t6" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-14">Jan. 14</TIMEX3>.
+
+
+	   Cuban exiles in Miami will <TIMEX3 tid="t7" type="DATE" functionInDocument="NONE" temporalFunction="true" value="PRESENT_REF">now</TI
+APW20000115.0209.tml	NCE">Rescued</EVENT> <SIGNAL sid="s5">on</SIGNAL> <TIMEX3 tid="t11" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1999-11-25">Nov. 25</TIMEX3> by fishermen off the Florida coast, Elian has <EVENT eid="e43" class="OCCURRENCE">become</EVENT> the
+subject of an international custody <EV
+NYT20000403.0463.tml	&amp;HT;    By MIKE WILLIAMS 
+ &amp;HT;    c.2000 Cox News Service 
+
+
+   MIAMI _ With a tense Miami <EVENT eid="e1" class="OCCURRENCE">waiting</EVENT>, federal immigration
+officials <EVENT eid="e2" class="REPORTING">said</EVENT> <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" value="2000-04-03">Monday</TIMEX3> they will <EVENT eid="e3" class="OCCURRENCE">order</EVENT> the Miami relatives of
+6-year-old Cuban rafter Elian Gonzalez to <EVENT eid="e4" class="OCCURRENCE">turn</EVENT> the boy over to his
+father , who could <EVENT eid="e5" class="OCCURRENCE">come</EVENT> to the U.S.
+NYT20000403.0463.tml	<SIGNAL sid="s3">In</SIGNAL> <TIMEX3 tid="t8" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01">January</TIMEX3>, Immigration and Naturalization
+Service Commissioner Doris Meissner <EVENT eid="e51" class="OCCURRENCE">ruled</EVENT> that Elian should <EVENT eid="e52" class="OCCURRENCE">go</EVENT> back
+to Cuba, a <EVENT eid="e125" class="OCCURRENCE">decision</EVENT> <EVENT eid="e53" class="OCCURRENCE">upheld</EVENT> by U.S.
+NYT20000403.0463.tml	The family <EVENT eid="e71" class="OCCURRENCE">refused</EVENT> to <EVENT eid="e72" class="OCCURRENCE">sign</EVENT> the <EVENT eid="e132" class="OCCURRENCE">agreement</EVENT> through <TIMEX3 tid="t11" type="DURATION" functionInDocument="NONE" temporalFunction="true" value="P2D">two days</TIMEX3> of
+negotiations, and INS <EVENT eid="e73" class="OCCURRENCE">extended</EVENT> its deadline until <TIMEX3 tid="t20" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-03-T9:00">9 a.m.
+NYT20000403.0463.tml	RRENCE">extended</EVENT> its deadline until <TIMEX3 tid="t20" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-03-T9:00">9 a.m. EST
+Tuesday</TIMEX3>.
+
+
+   The terms of the <EVENT eid="e134" class="REPORTING">talks</EVENT> <EVENT eid="e74" class="OCCURRENCE">changed</EVENT> dramatically, h
+NYT20000105.0325.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ NYT20000105.0325 
+ NEWS STORY 
+ 2000-01-05 20:17 
+
+A7656 &amp;Cx1f; tdt-z
+u i BC-CUBA-BOY-BOS &amp;LR;      01-05 0896
+
+
+ BC-CUBA-BOY-BOS 
+
+CUBAN BOY, SYMBOL FOR EXILES, MUST BE RETURNED TO FATHER 
+
+   (For use by New York Times News Service clients)  
+ By SUSAN MILLIGAN  
+ c.2000 The Boston Globe  
+ 
+
+
+   WASHINGTON _ A six-year-old boy who <EVENT eid="e1" class="OCCURRENCE">arrived</EVENT> on US shores as a
+motherless refugee and <EVENT eid="e2" class="OCCURRENCE">became</EVENT> a political symbol for anti-Castro
+exiles must be <EVENT eid="e3" class="OCCURRENCE">returned</EVENT> to his father in Cuba, immigration
+authorities <EVENT eid="e4" class="OCCURRENCE">ruled</EVENT> <TIMEX3 tid="t1" type="DATE" value="2000-01-05" temporalFunction="false" functionInDocument="NONE">Wednesday</TIMEX3>.
+NYT20000105.0325.tml	ENCE">go</EVENT> home <SIGNAL sid="s1">by</SIGNAL> <TIMEX3 tid="t2" type="DATE" value="2000-01-14" temporalFunction="false" functionInDocument="NONE">Jan. 14</TIMEX3>, INS commissioner Doris
+Meissner <EVENT eid="e9" class="REPORTING">told</EVENT> reporters.
+
+
+   ``This little boy, who has been through so m
+NYT20000105.0325.tml	``But that little boy, by <EVENT eid="e31" class="OCCURRENCE">surviving</EVENT> <TIMEX3 tid="t5" type="DURATION" value="P2D" temporalFunction="true" functionInDocument="NONE">two days</TIMEX3> on an
+inner tube, has <EVENT eid="e141" class="OCCURRENCE">earned</EVENT> the right to <EVENT eid="e32" class="OCCURRENCE">stay</EVENT> here in freedom.''
+
+
+   In Havana, the government <EVENT eid="e33" class="REPORTING">gave</EVENT> a guarded first <EVENT eid="e105" class="OCCURRENCE">response</EVENT> to the
+INS <EVENT eid="e106" class="OCCURRENCE">ruling</EVENT>, <EVENT eid="e107" class="I_ACTION">warning</EVENT> against ``excessive optimism'' and <EVENT eid="e35" class="I_ACTION">predicting</EVENT>
+``the Cuban-American mafia and the extreme right in the U.S.
+APW20000405.0276.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW20000405.0276 
+ NEWS STORY 
+ 2000-04-05 23:53 
+
+ Castro: Elian, Dad To Be Reunited  
+By ANITA SNOW, Associated Press Writer
+
+
+   HAVANA (AP) -- President Fidel Castro <EVENT eid="e1" class="REPORTING">declared</EVENT> <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-05-TNI">Wednesday night</TIMEX3>
+that it is just matter of days before Elian Gonzalez will be
+<EVENT eid="e73" class="OCCURRENCE">reunited</EVENT> with his father.
+APW20000115.0031.tml	But <TIMEX3 tid="t7" type="DATE" functionInDocument="NONE" temporalFunction="true" value="P1W" anchorTimeID="t1">this week</TIMEX3>, Attorney General Janet Reno <EVENT eid="e28" class="OCCURRENCE">lifted</EVENT> the deadline to <EVENT eid="e29" class="OCCURRENCE">give</EVENT>
+Elian's relatives in Miami a chance to <EVENT eid="e30" class="OCCURRENCE">fight</EVENT> in federal court to <EVENT eid="e31" class="OCCURRENCE">keep</EVENT> the boy
+with them.
+APW20000115.0031.tml	Reno <EVENT eid="e65" class="OCCURRENCE">allowed</EVENT> the <EVENT eid="e116" class="OCCURRENCE">extension</EVENT> of the deadline <SIGNAL sid="s4">after</SIGNAL> <EVENT eid="e66" class="OCCURRENCE">rejecting</EVENT> a Florida state
+court order that Elian remain in Miami <SIGNAL sid="s2">until</SIGNAL> <TIMEX3 tid="t9" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-03-06">March 6</TIMEX3> to <EVENT eid="e68" class="OCCURRENCE">hear</EVENT> <EVENT eid="e119" class="OCCURRENCE">arguments</EVENT> by his
+American relatives.
+APW20000216.0193.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW20000216.0193 
+ NEWS STORY 
+ 2000-02-16 17:17 
+
+ Elian's Father Wants Update on Son  
+   By ANITA SNOW Associated Press Writer
+
+
+	   HAVANA (AP ) -- Elian Gonzalez's father <EVENT eid="e1" class="REPORTING">said</EVENT> in a letter <EVENT eid="e2" class="OCCURRENCE">published</EVENT> <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="true" value="2000-02-16">Wednesday</TIMEX3>
+that he <EVENT eid="e3" class="I_STATE">wants</EVENT> Cuban diplomats based in Washington to <EVENT eid="e5" class="OCCURRENCE">meet</EVENT> with his 6-year-old
+son in Miami and <EVENT eid="e54" class="OCCURRENCE">check</EVENT> on his condition.
+APW20000216.0193.tml	``I formally <EVENT eid="e24" class="I_STATE">object</EVENT> to the legal <EVENT eid="e60" class="OCCURRENCE">moves</EVENT> made or being made by those who are
+arbitrarily <EVENT eid="e27" class="OCCURRENCE">retaining</EVENT> Elian,'' Gonzalez <EVENT eid="e28" class="REPORTING">said</EVENT> in the letter, <EVENT eid="e29" class="OCCURRENCE">dated</EVENT> <TIMEX3 tid="t7" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-02-14">Monday</TIMEX3>.
+NYT20000330.0406.tml	Immigration officials <EVENT eid="e27" class="OCCURRENCE">postponed</EVENT> <SIGNAL sid="s1">until</SIGNAL> <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-04">Tuesday morning</TIMEX3> any
+action on <EVENT eid="e28" class="OCCURRENCE">revoking</EVENT> the boy's temporary permission to <EVENT eid="e29" class="OCCURRENCE">stay</EVENT> in the
+United States, which would <EVENT eid="e30" class="OCCURRENCE">allow</EVENT> federal officials to, ultimately,
+<EVENT eid="e31" class="OCCURRENCE">take</EVENT> the boy from his relatives' house and eventually <EVENT eid="e152" class="OCCURRENCE">return</EVENT> him to
+Cuba.
+NYT20000330.0406.tml	Gonzalez's lawyer, Greg Craig, <EVENT eid="e44" class="OCCURRENCE">asked</EVENT> for a visa <TIMEX3 tid="t4" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-03-30">Thursday</TIMEX3> for his
+client for the expected <EVENT eid="e120" class="OCCURRENCE">visit</EVENT>, but was <EVENT eid="e46" class="REPORTING">told</EVENT> by U.S.
+NYT20000330.0406.tml	Castro <EVENT eid="e51" class="REPORTING">said</EVENT> Gonzalez would <EVENT eid="e52" class="OCCURRENCE">travel</EVENT> with his <TIMEX3 tid="t5" type="DATE" functionInDocument="NONE" temporalFunction="true" value="PRESENT_REF" anchorTimeID="t4">current</TIMEX3> wife and
+their son, a top government official, doctors, nurses,
+psychiatrists, Elian's Cuban kindergarten teacher, classmates and
+his old school desk.A list of 31 people <EVENT eid="e53" class="OCCURRENCE">issued</EVENT> by the Cuban
+government <TIMEX3 tid="t6" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-03-30">Thursday</TIMEX3> included Ricardo Alarcon, president of Cuba's
+National Assembly.
+APW20000107.0088.tml	Castro <EVENT eid="e11" class="OCCURRENCE">attended</EVENT> a <EVENT eid="e67" class="OCCURRENCE">rally</EVENT> <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-06">Thursday</TIMEX3> by media workers at Havana's Palace of
+Conventions to <EVENT eid="e12" class="OCCURRENCE">demand</EVENT> Gonzalez's <EVENT eid="e68" class="OCCURRENCE">return</EVENT>.
+APW20000107.0088.tml	Saying ``nothing is certain'' about Elian's <EVENT eid="e88" class="OCCURRENCE">return</EVENT>, Cuba's government
+<EVENT eid="e28" class="OCCURRENCE">exhorted</EVENT> citizens to <EVENT eid="e29" class="OCCURRENCE">keep</EVENT> <EVENT eid="e30" class="OCCURRENCE">rallying</EVENT>, <SIGNAL sid="s3">after</SIGNAL> the boy's relatives in Miami <EVENT eid="e31" class="REPORTING">said</EVENT> they
+would <EVENT eid="e32" class="OCCURRENCE">look</EVENT> for ways to <EVENT eid="e33" class="OCCURRENCE">get</EVENT> around <TIMEX3 tid="t5" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-05">Wednesday</TIMEX3>'s <EVENT eid="e89" class="OCCURRENCE">ruling</EVENT> by the U.S.
+APW20000107.0088.tml	ate</EVENT> the child <SIGNAL sid="s4">by</SIGNAL> <TIMEX3 tid="t6" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-14">Jan. 14</TIMEX3>.
+
+
+	   Cuban exiles in Miami will <TIMEX3 tid="t7" type="DATE" functionInDocument="NONE" temporalFunction="true" value="PRESENT_REF">now</TI
+APW20000107.0088.tml	NCE">Rescued</EVENT> <SIGNAL sid="s5">on</SIGNAL> <TIMEX3 tid="t11" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1999-11-25">Nov. 25</TIMEX3> by fishermen off the Florida coast, Elian has <EVENT eid="e43" class="OCCURRENCE">become</EVENT> the
+subject of an international custody <EV
+APW20000417.0031.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW20000417.0031 
+ NEWS STORY 
+ 2000-04-17 02:10 
+
+ Elian's Dad Lashes Out at Miami Kin  
+By ALAN CLENDENNING, Associated Press Writer
+
+
+   MIAMI (AP) -- After a weekend of bitter accusations <EVENT eid="e1" class="OCCURRENCE">lobbed</EVENT> by
+both sides of the Elian Gonzalez custody <EVENT eid="e97" class="OCCURRENCE">battle</EVENT>, attention <EVENT eid="e2" class="OCCURRENCE">returned</EVENT>
+<TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-17">today</TIMEX3> to the federal judges <EVENT eid="e141" class="OCCURRENCE">deciding</EVENT> a key point in the
+international case.
+APW20000417.0031.tml	''We were <EVENT eid="e146" class="OCCURRENCE">betrayed</EVENT> by the government, by (President) Kennedy,
+and if they <EVENT eid="e80" class="OCCURRENCE">turned</EVENT> the child back over, it will be a second
+<EVENT eid="e136" class="OCCURRENCE">betrayal</EVENT>,'' <EVENT eid="e81" class="REPORTING">said</EVENT> Josefa Gonzalez, who <EVENT eid="e82" class="OCCURRENCE">left</EVENT> Cuba <SIGNAL sid="s5">in</SIGNAL> <TIMEX3 tid="t10" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1962">1962</TIMEX3> when she
+was 4.
+NYT20000424.0319.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ NYT20000424.0319 
+ NEWS STORY 
+ <TIMEX3 tid="t3" type="DATE" functionInDocument="CREATION_TIME" temporalFunction="false" value="2000-04-24">2000-04-24</TIMEX3> 18:56 
+
+A5990 &amp;Cx1f; tdt-z
+u k BC-EDITORIAL-ELIAN-BOS &amp;LR;      04-24 0401
+
+
+ BC-EDITORIAL-ELIAN-BOS 
+
+A CHILD ONCE AGAIN 
+
+   (For use by New York Times News Service clients)  
+ c.2000 The Boston Globe  
+ 
+
+
+   The Clinton administration's wisdom in <EVENT eid="e1" class="OCCURRENCE">returning</EVENT> Elian Gonzalez
+to his father was <EVENT eid="e2" class="REPORTING">confirmed</EVENT> over <TIMEX3 tid="t1" type="DURATION" functionInDocument="NONE" temporalFunction="true" value="P2D" beginPoint="t4">the weekend</TIMEX3> <TIMEX3 tid="t4" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-22"></TIMEX3>decision of his
+Miami relatives and their Republican allies to further politicize
+what ought to be a straightforward child-custody case.
+APW20000128.0316.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW20000128.0316 
+ NEWS STORY 
+ 2000-01-28 23:42 
+
+ Cubans Demand Return of Elian  
+   By ANITA SNOW Associated Press Writer
+
+
+	   HAVANA (AP) -- Calling the mother of Elian Gonzalez ``an excellent girl,''
+President Fidel Castro <EVENT eid="e1" class="REPORTING">said</EVENT> <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-28">Friday</TIMEX3> she had been ``practically <EVENT eid="e2" class="OCCURRENCE">kidnapped</EVENT>'' by the
+boyfriend who <EVENT eid="e125" class="OCCURRENCE">perished</EVENT> along with her on the boat <EVENT eid="e3" class="OCCURRENCE">wreck</EVENT> her 6-year-old son
+<EVENT eid="e4" class="OCCURRENCE">survived</EVENT>.
+APW20000128.0316.tml	Castro <EVENT eid="e14" class="REPORTING">called</EVENT> Munero -- who reportedly <EVENT eid="e15" class="OCCURRENCE">drove</EVENT> a taxi and <EVENT eid="e16" class="OCCURRENCE">engaged</EVENT> in
+unofficial businesses in the Cuban city of Cardenas -- a ``ruffian'' on whom
+Cuban police had <EVENT eid="e128" class="OCCURRENCE">amassed</EVENT> ''100 pages of reports.''
+
+
+	   According to sources <EVENT eid="e17" class="OCCURRENCE">quoted</EVENT> by the Miami Herald, Munero had <EVENT eid="e18" class="OCCURRENCE">fled</EVENT> to Florida
+<SIGNAL sid="s2">in</SIGNAL> <TIMEX3 tid="t2" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1998-06">June 1998</TIMEX3> and <EVENT eid="e19" class="OCCURRENCE">returned</EVENT> to Cuba <TIMEX3 tid="t22" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1998">later that year</TIMEX3>, only to be <EVENT eid="e129" class="OCCURRENCE">jailed</EVENT> for several
+months.
+APW20000128.0316.tml	The commemorations <EVENT eid="e41" class="I_ACTION">began</EVENT> early <TIMEX3 tid="t11" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-01-28-TMO">Friday morning</TIMEX3>, as tens of thousands of
+Cubans <EVENT eid="e42" class="OCCURRENCE">marched</EVENT> through Havana's streets by torchlight.
+APW20000403.0057.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW20000403.0057 
+ NEWS STORY 
+ 2000-04-03 02:54 
+
+ Castro: Elian's Dad May Come Monday  
+By ANITA SNOW, Associated Press Writer
+
+
+   HAVANA (AP) -- In an apparent bid to <EVENT eid="e1" class="OCCURRENCE">show</EVENT> flexibility in the
+<EVENT eid="e90" class="OCCURRENCE">campaign</EVENT> to <EVENT eid="e2" class="OCCURRENCE">return</EVENT> Elian Gonzalez to Cuba, President Fidel Castro
+<EVENT eid="e3" class="REPORTING">said</EVENT> the boy's father has <EVENT eid="e4" class="OCCURRENCE">offered</EVENT> to <EVENT eid="e5" class="OCCURRENCE">travel</EVENT> alone <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-03">today</TIMEX3> to the
+United States to <EVENT eid="e6" class="OCCURRENCE">pick</EVENT> up his 6-year-old son.
+APW20000403.0057.tml	''I am willing to <EVENT eid="e19" class="OCCURRENCE">leave</EVENT> <TIMEX3 tid="t5" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-04">tomorrow</TIMEX3>, absolutely alone and <EVENT eid="e20" class="OCCURRENCE">transport</EVENT>
+myself to where the child is,'' Castro <EVENT eid="e21" class="OCCURRENCE">read</EVENT> from a letter <EVENT eid="e22" class="OCCURRENCE">signed</EVENT> by
+Gonzalez.
+APW20000403.0057.tml	NCE">given</EVENT> the Miami relatives until <TIMEX3 tid="t8" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-04-T9:00">9 a.m. Tuesday</TIMEX3> to <EVENT eid="e66" class="OCCURRENCE">sign</EVENT>
+a paper promising to <EVENT eid="e67" class="OCCURRENCE">turn</EVENT> over the boy to im
+APW20000403.0057.tml	Before his <TIMEX3 tid="t9" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-04-02-TNI">Sunday night</TIMEX3> address, Castro <EVENT eid="e77" class="OCCURRENCE">played</EVENT> the affectionate
+grandfather to the 12 first-graders <EVENT eid="e78" class="OCCURRENCE">proposed</EVENT> to <EVENT eid="e79" class="OCCURRENCE">go</EVENT> on the <EVENT eid="e121" class="OCCURRENCE">trip</EVENT>,
+<EVENT eid="e80" class="I_STATE">assuring</EVENT> them that their planned <EVENT eid="e122" class="OCCURRENCE">trip</EVENT> to Washington to <EVENT eid="e82" class="OCCURRENCE">retrieve</EVENT>
+their little friend was a very important <EVENT eid="e123" class="OCCURRENCE">mission</EVENT>.
+NYT20000414.0296.tml	When <EVENT eid="e22" class="OCCURRENCE">asked</EVENT> if she <EVENT eid="e23" class="I_STATE">thought</EVENT> the boy's father, Juan Miguel
+Gonzalez, was being <EVENT eid="e24" class="OCCURRENCE">controlled</EVENT> by the Cuban government even though
+he has been in Bethesda, Md., for <TIMEX3 tid="t5" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-W15">the last week</TIMEX3>, she <EVENT eid="e86" class="OCCURRENCE">frowned</EVENT>.
+APW20000401.0150.tml	RENCE">landed</EVENT> <SIGNAL sid="s1">on</SIGNAL> <TIMEX3 tid="t4" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1956-12-02">Dec. 2, 1956</TIMEX3>, with 82 armed men
+<EVENT eid="e10" class="OCCURRENCE">led</EVENT> by Fidel Castro.
+
+
+   In the <TIMEX3 tid="t8" type="DURATION" functionInD
+APW20000216.0272.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW20000216.0272 
+ NEWS STORY 
+ 2000-02-16 19:40 
+
+ Elian's Father Wants Update on Son  
+   By ANITA SNOW Associated Press Writer
+
+
+	   HAVANA (AP) -- Elian Gonzalez's father <EVENT eid="e1" class="REPORTING">said</EVENT> in a letter <EVENT eid="e2" class="OCCURRENCE">published</EVENT> <TIMEX3 tid="t1" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-02-16">Wednesday</TIMEX3>
+that he <EVENT eid="e3" class="I_STATE">wants</EVENT> Cuban diplomats based in Washington to <EVENT eid="e5" class="OCCURRENCE">meet</EVENT> with his 6-year-old
+son in Miami and <EVENT eid="e61" class="OCCURRENCE">check</EVENT> on his condition.
+APW20000216.0272.tml	``I formally <EVENT eid="e31" class="I_STATE">object</EVENT> to the legal <EVENT eid="e71" class="OCCURRENCE">moves</EVENT> made or being made by those who are
+arbitrarily <EVENT eid="e34" class="OCCURRENCE">retaining</EVENT> Elian,'' Gonzalez <EVENT eid="e35" class="REPORTING">said</EVENT> in the letter, <EVENT eid="e36" class="OCCURRENCE">dated</EVENT> <TIMEX3 tid="t9" type="DATE" functionInDocument="NONE" temporalFunction="false" value="2000-02-14">Monday</TIMEX3>.
+APW19990506.0155.tml	(AP) -- An abortion foe who <EVENT eid="e1" class="STATE">is</EVENT> the subject of an  
+international <EVENT eid="e2" class="OCCURRENCE">manhunt</EVENT> was <EVENT eid="e3" class="OCCURRENCE">charged</EVENT> with murder <TIMEX3 tid="t2" type="DATE" value="1999-05-06" temporalFunction="true" functionInDocument="NONE">Thursday</TIMEX3> in the 
+<EVENT eid="e4" class="OCCURRENCE">slaying</EVENT> of a doctor who was <EVENT eid="e5" class="OCCURRENCE">cut</EVENT> down in his kitchen by a sniper's 
+bullet.
+APW19990506.0155.tml	GNAL> shortly <SIGNAL sid="s2">after</SIGNAL>  
+the <TIMEX3 tid="t3" type="DATE" value="1998-10-23" temporalFunction="true" functionInDocument="NONE">Oct. 23</TIMEX3> <EVENT eid="e15" class="OCCURRENCE">slaying</EVENT>. Up <SIGNAL sid="s3">until</SIGNAL> <TIMEX3 tid="t4" type="DATE" value="1999-05-06" temp
+APW19990506.0155.tml	His car was <EVENT eid="e56" class="PERCEPTION">spotted</EVENT> in Slepian's suburban Amherst neighborhood <SIGNAL sid="s7">in</SIGNAL> 
+the <TIMEX3 tid="t7" type="DATE" value="1998-10" temporalFunction="true" functionInDocument="NONE">weeks</TIMEX3> <SIGNAL sid="s8">before</SIGNAL> the <EVENT eid="e57" class="OCCURRENCE">shooting</EVENT>, and was <EVENT eid="e58" class="I_ACTION">found</EVENT> <EVENT eid="e59" class="OCCURRENCE">abandoned</EVENT> at New 
+Jersey's Newark International Airport <SIGNAL sid="s9">in</SIGNAL> <TIMEX3 tid="t8" type="DATE" value="1998-12" temporalFunction="true" functionInDocument="NONE">December</TIMEX3>, investigators 
+<EVENT eid="e60" class="REPORTING">said</EVENT>.
+APW19990410.0123.tml	Barnett Slepian was <EVENT eid="e5" class="OCCURRENCE">killed</EVENT> in his kitchen by a sniper's  
+bullet <TIMEX3 tid="t2" type="DATE" value="1998-FA" temporalFunction="true" functionInDocument="NONE">last fall</TIMEX3>.
+APW19990410.0123.tml	Investigators <EVENT eid="e27" class="REPORTING">said</EVENT> Kopp's car was <EVENT eid="e28" class="PERCEPTION">seen</EVENT> in the neighborhood <SIGNAL sid="s2">in</SIGNAL>  
+the <TIMEX3 tid="t5" type="DATE" value="1998-FA" temporalFunction="true" functionInDocument="NONE">days</TIMEX3> <SIGNAL sid="s3">before</SIGNAL> the <EVENT eid="e29" class="OCCURRENCE">slaying</EVENT>.
+NYT19981026.0446.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+ NYT19981026.0446 
+ NEWS STORY 
+<TIMEX3 tid="t1" type="TIME" value="1998-10-26T22:54" temporalFunction="false" functionInDocument="CREATION_TIME">1998-10-26 22:54</TIMEX3> 
+
+A8236 &amp;Cx1f; tta-z
+u a &amp;Cx13;  &amp;Cx11;  BC-ABORTION-DOCTOR-ISSUE     10-26 0882
+ BC-ABORTION-DOCTOR-ISSUE-NYT 
+
+KILLING OF DOCTOR BECOMES A FACTOR IN POLITICAL RACES
+   (ll) 
+ By AMY WALDMAN   
+ c.1998 N.Y.
+NYT19981026.0446.tml	<SIGNAL sid="s4">On</SIGNAL> <TIMEX3 tid="t5" type="DATE" value="1998-10-27" temporalFunction="true" functionInDocument="NONE">Tuesday</TIMEX3>, the National Abortion and Reproductive Rights Action
+League <EVENT eid="e32" class="I_STATE">plans</EVENT> to <EVENT eid="e33" class="I_ACTION">hold</EVENT> a news <EVENT eid="e34" class="OCCURRENCE">conference</EVENT> to <EVENT eid="e35" class="OCCURRENCE">screen</EVENT> a television
+advertisement _ <EVENT eid="e36" class="OCCURRENCE">made</EVENT> <TIMEX3 tid="t6" type="DATE" value="1998-10-XX" temporalFunction="true" functionInDocument="NONE">last week</TIMEX3>, <SIGNAL sid="s5">before</SIGNAL> Slepian <EVENT eid="e37" class="OCCURRENCE">died</EVENT> _ featuring
+Emily Lyons, a nurse who was badly <EVENT eid="e38" class="OCCURRENCE">wounded</EVENT> <TIMEX3 tid="t7" type="DATE" value="1998-XX-XX" temporalFunction="true" functionInDocument="NONE">earlier this year</TIMEX3> in the
+<EVENT eid="e39" class="OCCURRENCE">bombing</EVENT> of an abortion clinic in Alabama.
+NYT19990419.0515.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+ NYT19990419.0515 
+ NEWS STORY 
+<TIMEX3 tid="t1" type="TIME" value="1999-04-19T23:14" temporalFunction="false" functionInDocument="CREATION_TIME">1999-04-19 23:14</TIMEX3> 
+
+A5217 &amp;Cx1f; taf-z
+u a &amp;Cx13;  &amp;Cx11;  BC-NY-ABORTION-DOCTOR-NY     04-19 0575
+
+
+ BC-NY-ABORTION-DOCTOR-NYT 
+
+PROSECUTORS TO PRESENT CLINIC DOCTOR'S SLAYING TO GRAND JURY
+
+   (nk) 
+ By JOSEPH BERGER   
+ c.1999 N.Y.
+NYT19990419.0515.tml	"e12" class="OCCURRENCE">shot</EVENT> to death last <TIMEX3 tid="t5" type="DATE" value="1998-10-23" temporalFunction="true" functionInDocument="NONE">Oct. 23</TIMEX3> at his home in suburban Amherst.
+But the <EVENT eid="e13" class="OCCURRENCE">decision</EVENT> by District Attorney Frank C. Clark to <EVENT
+NYT19990419.0515.tml	``We've <EVENT eid="e19" class="STATE">gotten</EVENT> to the point where we <EVENT eid="e20" class="I_STATE">know</EVENT> what we <EVENT eid="e21" class="I_ACTION">want</EVENT> to
+<EVENT eid="e22" class="OCCURRENCE">introduce</EVENT> before a grand jury,'' Clark <EVENT eid="e23" class="REPORTING">said</EVENT> in a telephone
+<EVENT eid="e24" class="OCCURRENCE">interview</EVENT> <TIMEX3 tid="t6" type="DATE" value="1999-04-19" temporalFunction="true" functionInDocument="NONE">Monday</TIMEX3>.
+NYT19990419.0515.tml	r Slepian's house
+<SIGNAL sid="s5">at</SIGNAL> <TIMEX3 tid="t9" type="TIME" value="1998-10-13T6:00" temporalFunction="true" functionInDocument="NONE">6 a.m. ten days</TIMEX3> <SIGNAL sid="s3">before</SIGNAL> the <EVENT eid="e57" class="OCCURRENCE">shooting</EVENT>. There also are videotapes
+of Kopp's car <EVENT ei
+NYT19990505.0443.tml	Clark, the Erie district attorney, <EVENT eid="e51" class="REPORTING">said</EVENT> afterwards that
+investigators <EVENT eid="e52" class="I_STATE">think</EVENT> the doctor's killer <EVENT eid="e53" class="OCCURRENCE">buried</EVENT> the rifle <SIGNAL sid="s4">in</SIGNAL> the
+<TIMEX3 tid="t8" type="DATE" value="1998-10" temporalFunction="true" functionInDocument="NONE">days</TIMEX3> <SIGNAL sid="s5">before</SIGNAL> the <EVENT eid="e55" class="OCCURRENCE">shooting</EVENT>, <EVENT eid="e56" class="OCCURRENCE">unearthed</EVENT> the weapon to <EVENT eid="e57" class="OCCURRENCE">fire</EVENT> the fatal
+shots, then hurriedly <EVENT eid="e58" class="OCCURRENCE">reburied</EVENT> it and <EVENT eid="e59" class="OCCURRENCE">fled</EVENT>.
+NYT19990505.0443.tml	near Slepian's home <TIMEX3 tid="t11" type="DATE" value="1998-10-13" temporalFunction="true" functionInDocument="NONE">10 days</TIMEX3> <SIGNAL sid="s8">before</SIGNAL> the <EVENT eid="e65" class="OCCURRENCE">murder</EVENT>, and, <EVENT eid="e66" class="I_STATE">curious</EVENT>
+why a stranger would be <EVENT eid="e67" class="OCCURRENCE">parked</EVENT> there so early, <EVENT eid="e68" class="OCCURRENCE">wrote</EVENT> down the
+license plate number.
+APW19991024.0075.tml	(AP) -- About 500 people <EVENT eid="e1" class="OCCURRENCE">attended</EVENT> a <TIMEX3 tid="t2" type="DATE" value="1999-10-24" temporalFunction="true" functionInDocument="NONE">Sunday</TIMEX3> night  
+memorial <EVENT eid="e2" class="OCCURRENCE">service</EVENT> for the Buffalo-area physician who <EVENT eid="e3" class="OCCURRENCE">performed</EVENT> 
+abortions, <TIMEX3 tid="t3" type="DURATION" value="P1Y" temporalFunction="false" functionInDocument="NONE">one year</TIMEX3> <SIGNAL sid="s1">after</SIGNAL> he was <EVENT eid="e4" class="OCCURRENCE">killed</EVENT> by a sniper's bullet.
+APW19991024.0075.tml	RENCE">killed</EVENT> <SIGNAL sid="s4">on</SIGNAL> <TIMEX3 tid="t7" type="DATE" value="1999-10-23" temporalFunction="false" functionInDocument="NONE">Oct. 23, 1999</TIMEX3> by a sniper <EVENT eid="e22" class="STATE">hiding</EVENT> in his  
+backyard. <TIMEX3 tid="t8" type="DATE" value="1998-10-23" temporalFunctio
+APW19990507.0207.tml	He was <EVENT eid="e14" class="OCCURRENCE">charged</EVENT> <TIMEX3 tid="t5" type="DATE" value="1999-05-06" temporalFunction="true" functionInDocument="NONE">Thursday</TIMEX3> in state and federal complaints 
+with second-degree murder and with <EVENT eid="e15" class="OCCURRENCE">violating</EVENT> the Freedom of Access 
+to Clinic Entrances Act by <EVENT eid="e16" class="I_ACTION">using</EVENT> deadly <EVENT eid="e17" class="OCCURRENCE">force</EVENT> against an abortion 
+doctor.
+APW19990507.0207.tml	st <EVENT eid="e21" class="PERCEPTION">seen</EVENT> <TIMEX3 tid="t6" type="DATE" value="1998-11-03" temporalFunction="true" functionInDocument="NONE">Nov. 3</TIMEX3>, the  
+day <SIGNAL sid="s2">before</SIGNAL> authorities <EVENT eid="e22" class="OCCURRENCE">issued</EVENT> a material witness warrant in the
+APW19990507.0207.tml	His car was <EVENT eid="e42" class="PERCEPTION">spotted</EVENT> in Slepian's neighborhood <SIGNAL sid="s5">in</SIGNAL> the <TIMEX3 tid="t10" type="DATE" value="1998-FA" temporalFunction="true" functionInDocument="NONE">weeks</TIMEX3> <SIGNAL sid="s6">before</SIGNAL> 
+the <EVENT eid="e43" class="OCCURRENCE">shooting</EVENT>, and was <EVENT eid="e44" class="I_STATE">found</EVENT> <EVENT eid="e45" class="STATE">abandoned</EVENT> at the Newark, N.J., airport 
+<SIGNAL sid="s7">in</SIGNAL> <TIMEX3 tid="t11" type="DATE" value="1998-12" temporalFunction="true" functionInDocument="NONE">December</TIMEX3>.
+NYT19981120.0362.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+ NYT19981120.0362 
+ NEWS STORY 
+<TIMEX3 tid="t1" type="TIME" value="1998-11-20T19:30" temporalFunction="false" functionInDocument="CREATION_TIME">1998-11-20 19:30</TIMEX3> 
+
+A2192 &amp;Cx1f; tdt-z
+u a &amp;Cx13;  &amp;Cx11;  BC-ABORTION-SUSPECT-BOS &amp;LR;      11-20 0316
+
+
+BC-ABORTION-SUSPECT-BOS 
+
+ANTIABORTION ACTIVIST MAY BE IN MEXICO 
+
+   (For use by New York Times News Service clients)  
+ By RIC KAHN   
+ c.1998 The Boston Globe  
+ 
+   The antiabortion activist <EVENT eid="e1" class="I_ACTION">wanted</EVENT> for <EVENT eid="e2" class="OCCURRENCE">questioning</EVENT> in <TIMEX3 tid="t2" type="DATE" value="1998-10" temporalFunction="true" functionInDocument="NONE">last month</TIMEX3>'s
+shooting <EVENT eid="e3" class="OCCURRENCE">death</EVENT> of a doctor in a Buffalo suburb may have <EVENT eid="e4" class="OCCURRENCE">fled</EVENT> to
+Mexico, according to a newspaper report.
+NYT19981121.0173.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+ NYT19981121.0173 
+NEWS STORY 
+<TIMEX3 tid="t1" type="TIME" value="1998-11-21T17:17" temporalFunction="false" functionInDocument="CREATION_TIME">1998-11-21 17:17</TIMEX3> 
+
+A2895 &amp;Cx1f; taf-z
+u a &amp;Cx13;  &amp;Cx11;  BC-NY-ABORTION-DR-KILLIN     11-21 0471
+
+
+BC-NY-ABORTION-DR-KILLING-NYT 
+
+MAN QUESTIONED IN KILLING OF BUFFALO DOCTOR IS RELEASED 
+
+  (js) 
+ By JIM YARDLEY   
+ c.1998 N.Y.
+NYT19981121.0173.tml	The two men, Ronald Stauber and Michael Gingrich, were <EVENT eid="e7" class="OCCURRENCE">named</EVENT>
+<TIMEX3 tid="t3" type="DATE" value="1998-11-19" temporalFunction="true" functionInDocument="NONE">Thursday</TIMEX3> in a bulletin <EVENT eid="e8" class="OCCURRENCE">sent</EVENT> by the FBI office in Cleveland to
+police departments across the country.
+NYT19981025.0188.tml	Slepian <EVENT eid="e6" class="STATE">was</EVENT> one
+of only three doctors who <EVENT eid="e7" class="OCCURRENCE">performed</EVENT> abortions in the Buffalo, N.Y.,
+area, and harassment and threats against him by anti-abortion
+groups had <EVENT eid="e8" class="STATE">become</EVENT> routine <SIGNAL sid="s2">over</SIGNAL> the <TIMEX3 tid="t3" type="DURATION" value="P10Y" temporalFunction="true" functionInDocument="NONE" endPoint="t1">past decade</TIMEX3>.
+APW19990122.0193.tml	Authorities <EVENT eid="e68" class="OCCURRENCE">obtained</EVENT> a material-witness arrest warrant for Kopp  
+<SIGNAL sid="s3">after</SIGNAL> they <EVENT eid="e69" class="REPORTING">said</EVENT> Kopp's car was <EVENT eid="e70" class="PERCEPTION">spotted</EVENT> in Amherst <SIGNAL sid="s4">in</SIGNAL> the <TIMEX3 tid="t8" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1998-10">weeks</TIMEX3> 
+<SIGNAL sid="s5">before</SIGNAL> Slepian was <EVENT eid="e71" class="OCCURRENCE">killed</EVENT>.
+APW199980817.1193.tml	``To America's embassy personnel in Nairobi and Dar es Salaam, I
+will <EVENT eid="e6" class="OCCURRENCE">bring</EVENT> a message of solidarity in their sorrow, admiration for
+their courage and support for their <EVENT eid="e7" class="ASPECTUAL">continued</EVENT> <EVENT eid="e64" class="OCCURRENCE">efforts</EVENT> on behalf of
+our country,'' Albright <EVENT eid="e8" class="REPORTING">said</EVENT> <TIMEX3 tid="t2" type="DATE" value="1998-08-17" temporalFunction="false" functionInDocument="NONE">Monday</TIMEX3> <SIGNAL sid="s5">before</SIGNAL> <EVENT eid="e9" class="OCCURRENCE">leaving</EVENT> Andrews Air
+Force Base, Maryland .
+APW199980817.1193.tml	``To the people of Kenya and Tanzania, I
+will <EVENT eid="e10" class="OCCURRENCE">bring</EVENT> a message of friendship, made deeper by our shared
+grief, and of support in <EVENT eid="e13" class="OCCURRENCE">doing</EVENT> all we can to <EVENT eid="e14" class="OCCURRENCE">ease</EVENT> their <EVENT eid="e68" class="OCCURRENCE">suffering</EVENT>
+and <EVENT eid="e15" class="I_ACTION">help</EVENT> them <EVENT eid="e16" class="OCCURRENCE">start</EVENT> anew.''
+	   Albright, <SIGNAL sid="s3">after</SIGNAL> a <TIMEX3 tid="t11" type="DURATION" value="P16H" temporalFunction="true" functionInDocument="NONE">16-hour</TIMEX3> <EVENT eid="e69" class="OCCURRENCE">flight</EVENT>, is <EVENT eid="e17" class="OCCURRENCE">scheduled</EVENT> to <EVENT eid="e18" class="OCCURRENCE">spend</EVENT> only
+<TIMEX3 tid="t12" type="DURATION" value="P5H" temporalFunction="true" functionInDocument="NONE">five hours</TIMEX3> on the ground in Dar es Salaam, Tanzania, her first <EVENT eid="e70" class="OCCURRENCE">stop</EVENT>
+<TIMEX3 tid="t3" type="DATE" value="1998-08-18" temporalFunction="false" functionInDocument="NONE">Tuesday morning</TIMEX3>, and then about <TIMEX3 tid="t13" type="DURATION" value="P5H30M" temporalFunction="true" functionInDocument="NONE">5 1/2 hours</TIMEX3> in Nairobi, Kenya,
+later in the day <SIGNAL sid="s1">before</SIGNAL> <EVENT eid="e19" class="OCCURRENCE">returning</EVENT> immediately home.
+APW199980817.1193.tml	official <EVENT eid="e53" class="REPORTING">said</EVENT> <TIMEX3 tid="t10" type="DURATION" value="P1W" temporalFunction="false" functionInDocument="NONE" anchorTimeID="t7">last week</TIMEX3> that field tests
+<EVENT eid="e54" class="OCCURRENCE">suggested</EVENT> the presence of a Czech-made plastic explosive called
+Semtex that has been <EVENT eid="e57" class="OCCURRENCE">used</EVENT> by terrorist groups before.
+NYT19980907.0112.tml	Tourism industry revenues reportedly <EVENT eid="e50" class="OCCURRENCE">dropped</EVENT> to $300
+million <TIMEX3 tid="t5" type="DATE" value="1997" temporalFunction="false" functionInDocument="NONE">last year</TIMEX3>, down from $450 million the year before.
+XIE19980812.0062.tml	Secretary of State
+Madeleine Albright <EVENT eid="e1" class="REPORTING">said</EVENT> <SIGNAL sid="s1">on</SIGNAL> <TIMEX3 tid="t2" type="DATE" value="1998-08-11" temporalFunction="false" functionInDocument="NONE">Tuesday</TIMEX3> that she was heartened by
+<EVENT eid="e40" class="OCCURRENCE">cooperation</EVENT> from Kenya and Tanzania in <EVENT eid="e2" class="OCCURRENCE">probing</EVENT> into <TIMEX3 tid="t3" type="DATE" value="1998-08-07" temporalFunction="false" functionInDocument="NONE">last Friday</TIMEX3>'s
+<EVENT eid="e41" class="OCCURRENCE">bombings</EVENT> of U.S.
+XIE19980812.0062.tml	"I <EVENT eid="e8" class="I_STATE">want</EVENT> to <EVENT eid="e9" class="OCCURRENCE">thank</EVENT> you for the <EVENT eid="e45" class="I_ACTION">help</EVENT> that your governments have
+<EVENT eid="e10" class="OCCURRENCE">provided</EVENT> by <EVENT eid="e11" class="OCCURRENCE">sharing</EVENT> information and <EVENT eid="e12" class="OCCURRENCE">tightening</EVENT> security at our
+embassies in <TIMEX3 tid="t8" type="DURATION" value="PXD" temporalFunction="true" functionInDocument="NONE">recent days</TIMEX3>," she <EVENT eid="e13" class="REPORTING">said</EVENT>.
+XIE19980808.0049.tml	"No matter how long it takes or where it takes us, we will
+<EVENT eid="e41" class="OCCURRENCE">pursue</EVENT> terrorists until the cases are <EVENT eid="e4" class="OCCURRENCE">solved</EVENT> and justice is <EVENT eid="e42" class="OCCURRENCE">done</EVENT>,"
+Clinton <EVENT eid="e5" class="REPORTING">said</EVENT> in his <TIMEX3 tid="t3" type="SET" value="P1W" temporalFunction="true" functionInDocument="NONE" freq="1X">weekly</TIMEX3> radio address.
+APW19980818.0515.tml	Albright, <EVENT eid="e16" class="OCCURRENCE">arriving</EVENT> <SIGNAL sid="s5">after</SIGNAL> a <TIMEX3 tid="t9" type="DURATION" value="P16H" temporalFunction="true" functionInDocument="NONE">16-hour</TIMEX3> <EVENT eid="e103" class="OCCURRENCE">flight</EVENT>, <EVENT eid="e17" class="OCCURRENCE">spent</EVENT> about <TIMEX3 tid="t5" type="DURATION" value="1998-08-18P5H" temporalFunction="false" functionInDocument="NONE">five
+hours</TIMEX3> in Tanzania <SIGNAL sid="s2">before</SIGNAL> <EVENT eid="e18" class="OCCURRENCE">heading</EVENT> to Nairobi in a small plane when
+an engine of the Boeing 747 she had <EVENT eid="e19" class="OCCURRENCE">flown</EVENT> in from Washington
+<EVENT eid="e153" class="OCCURRENCE">overheated</EVENT>.
+APW19980818.0515.tml	She was <EVENT eid="e20" class="OCCURRENCE">scheduled</EVENT> to <EVENT eid="e21" class="OCCURRENCE">lay</EVENT> flowers at the bombed embassy, <EVENT eid="e23" class="REPORTING">talk</EVENT> to
+Kenyan embassy guards and others who <EVENT eid="e24" class="OCCURRENCE">survived</EVENT> the <EVENT eid="e106" class="OCCURRENCE">blast</EVENT> and <EVENT eid="e25" class="OCCURRENCE">meet</EVENT>
+with President Daniel arap Moi in a <TIMEX3 tid="t10" type="DURATION" value="P5H" temporalFunction="true" functionInDocument="NONE">five-hour</TIMEX3> <EVENT eid="e107" class="OCCURRENCE">visit</EVENT> <SIGNAL sid="s3">before</SIGNAL>
+<EVENT eid="e26" class="OCCURRENCE">returning</EVENT> home.
+APW19980810.0907.tml	<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW19980810.0907 
+ MISCELLANEOUS TEXT (slug-filter) 
+ 08/10/1998 17:52:00 
+
+w2541 &amp;Cx1f; wstm-
+r i &amp;Cx13;  &amp;Cx11;  BC-EmbassyBombings-Casua     08-10 0130
+
+
+ BC-Embassy Bombings-Casualties-Glance,0129 
+
+Figures on the dead and injured in the twin embassy bombings
+
+ &amp;UR; With BC-Embassy Bombings &amp;QL; 
+ &amp;UR; By The Associated Press &amp;QC; 
+
+
+	   NAIROBI, Kenya (AP) _ The following are the latest figures as of
+<TIMEX3 tid="t1" type="DATE" value="1998-08-10" temporalFunction="false" functionInDocument="NONE">Monday</TIMEX3> for the dead and injured in the <EVENT eid="e3" class="OCCURRENCE">bombings</EVENT> of the U.S.
+APW19991008.0151.tml	magistrate judge in Manhattan at <TIMEX3 tid="t2" type="TIME" value="T12:00" temporalFunction="true" functionInDocument="NONE">midday</TIMEX3>, according to 
+a statement <TIMEX3 tid="t3" type="DATE" value="1999-10-08" temporalFunction="false" functionInDocument="NONE">today</TIMEX3> by U.S.
+APW19980826.0389.tml	Ambassador Prudence Bushnell <EVENT eid="e1" class="OCCURRENCE">wrapped</EVENT>
+up some unfinished business <SIGNAL sid="s2">on</SIGNAL> <TIMEX3 tid="t1" type="DATE" value="1998-08-26" functionInDocument="NONE">Wednesday</TIMEX3>, <EVENT eid="e28" class="OCCURRENCE">meeting</EVENT> with Kenya's
+trade minister to <EVENT eid="e2" class="ASPECTUAL">finish</EVENT> <EVENT eid="e30" class="REPORTING">talks</EVENT> that were <EVENT eid="e3" class="OCCURRENCE">interrupted</EVENT> by the car
+<EVENT eid="e31" class="OCCURRENCE">bombing</EVENT> of the embassy.
+APW19990216.0198.tml	</P>
+<P>
+	The venue was <EVENT eid="e7" class="I_ACTION">chosen</EVENT> to honor the <EVENT eid="e9" class="REPORTING">announcement</EVENT> by President  
+Truman of the <EVENT eid="e10" class="OCCURRENCE">creation</EVENT> of NATO <TIMEX3 tid="t4" type="DATE" value="1949-XX" temporalFunction="true" functionInDocument="NONE">50 years ago</TIMEX3>, the State Department 
+<EVENT eid="e11" class="REPORTING">said</EVENT>.
+NYT19990312.0271.tml	</P>
+<P>
+   Albright, who was <EVENT eid="e12" class="OCCURRENCE">born</EVENT> in Prague and <EVENT eid="e13" class="OCCURRENCE">fled</EVENT> just <SIGNAL sid="s3">after</SIGNAL> the
+Communist <EVENT eid="e14" class="OCCURRENCE">takeover</EVENT> <SIGNAL sid="s4">in</SIGNAL> <TIMEX3 tid="t4" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1948-XX">1948</TIMEX3>, <EVENT eid="e15" class="OCCURRENCE">made</EVENT> no secret of her joy at her
+homeland and its neighbors <EVENT eid="e16" class="OCCURRENCE">joining</EVENT> the alliance <SIGNAL sid="s5">after</SIGNAL> a <TIMEX3 tid="t5" type="DURATION" functionInDocument="NONE" temporalFunction="false" value="P6Y">six year</TIMEX3>
+trans-Atlantic diplomatic <EVENT eid="e17" class="STATE">process</EVENT> <EVENT eid="e18" class="ASPECTUAL">led</EVENT> by the Clinton
+administration.
+NYT19990312.0271.tml	Steadily and systematically, we will <EVENT eid="e53" class="ASPECTUAL">continue</EVENT> <EVENT eid="e54" class="OCCURRENCE">erasing</EVENT> _ without
+<EVENT eid="e55" class="OCCURRENCE">replacing</EVENT> _ the line <EVENT eid="e56" class="OCCURRENCE">drawn</EVENT> in Europe by Stalin's bloody boot.''
+</P>
+<P>
+   Albright also <EVENT eid="e59" class="OCCURRENCE">used</EVENT> her <EVENT eid="e60" class="OCCURRENCE">speech</EVENT> to <EVENT eid="e61" class="REPORTING">articulate</EVENT> a forward-looking
+vision for NATO, which will <EVENT eid="e62" class="OCCURRENCE">celebrate</EVENT> its 50th anniversary in
+Washington <TIMEX3 tid="t8" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-04">next month</TIMEX3>, and to <EVENT eid="e63" class="OCCURRENCE">defend</EVENT> NATO's potential <EVENT eid="e64" class="STATE">involvement</EVENT>
+in Kosovo.
+NYT19990312.0271.tml	``For the people of
+Poland, high noon <EVENT eid="e123" class="OCCURRENCE">comes</EVENT> <TIMEX3 tid="t11" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-03-12">today</TIMEX3>.''
+</P>
+<P>
+   The Czech foreign minister, Jan Kavan, who <EVENT eid="e124" class="STATE">lived</EVENT> in London <SIGNAL sid="s11">from</SIGNAL>
+<TIMEX3 tid="t12" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1968">1968</TIMEX3>, when the Soviets <EVENT eid="e125" class="OCCURRENCE">invaded</EVENT> Czechoslovakia, <SIGNAL sid="s12">until</SIGNAL> <TIMEX3 tid="t13" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1989">1989</TIMEX3>, <EVENT eid="e126" class="REPORTING">said</EVENT> he
+had <EVENT eid="e127" class="STATE">remained</EVENT> buoyant <SIGNAL sid="s13">during</SIGNAL> his opposition <EVENT eid="e128" class="OCCURRENCE">work</EVENT> as an emigre by
+<EVENT eid="e129" class="I_STATE">believing</EVENT> that communism would eventually <EVENT eid="e130" class="OCCURRENCE">fall</EVENT>.
+NYT19990312.0271.tml	</P>
+<P>
+   The location for <TIMEX3 tid="t15" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-03-12">Friday's</TIMEX3> <EVENT eid="e154" class="OCCURRENCE">ceremony</EVENT> was <EVENT eid="e155" class="OCCURRENCE">chosen</EVENT> by Albright, who
+as secretary of state <EVENT eid="e156" class="STATE">is</EVENT> the depository of NATO's accession
+accords.
+NYT19990312.0271.tml	</P>
+<P>
+   The alliance has <EVENT eid="e170" class="OCCURRENCE">expanded</EVENT> three times before, <EVENT eid="e171" class="OCCURRENCE">adding</EVENT> Greece and
+Turkey <SIGNAL sid="s15">in</SIGNAL> <TIMEX3 tid="t17" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1952">1952</TIMEX3>, West Germany <SIGNAL sid="s16">in</SIGNAL> <TIMEX3 tid="t18" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1955">1955</TIMEX3> and Spain <SIGNAL sid="s17">in</SIGNAL> <TIMEX3 tid="t19" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1982">1982</TIMEX3>.
