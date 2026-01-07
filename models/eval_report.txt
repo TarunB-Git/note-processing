@@ -1,0 +1,20 @@
+Best Params: {'C': 1.0}
+
+Macro-F1 on test: 0.9378
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    deadline     0.9979    1.0000    0.9989      1417
+    question     0.9988    0.9961    0.9975    120988
+        task     0.7429    0.9073    0.8169      1500
+
+    accuracy                         0.9951    123905
+   macro avg     0.9132    0.9678    0.9378    123905
+weighted avg     0.9957    0.9951    0.9953    123905
+
+Dataset label counts:
+label
+question    806584
+task          9997
+deadline      9449
