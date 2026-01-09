@@ -1,0 +1,24 @@
+{
+  "created": "2026-01-09T12:20:30.889205",
+  "n_examples": 826026,
+  "word_max_features": 100000,
+  "char_max_features": 30000,
+  "engineered_feature_count": 15,
+  "engineered_feature_names": [
+    "token_count",
+    "avg_token_len",
+    "unique_ratio",
+    "numeric_ratio",
+    "has_digit",
+    "has_weekday",
+    "has_month",
+    "has_time",
+    "has_relative",
+    "has_duration",
+    "has_question",
+    "starts_imperative",
+    "has_currency",
+    "has_url_email",
+    "q_marks"
+  ]
+}

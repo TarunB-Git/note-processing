@@ -1,0 +1,19 @@
+{
+  "created": "2026-01-09T12:19:32.944855",
+  "combined_rows": 826026,
+  "label_counts": {
+    "question": 806584,
+    "task": 9996,
+    "deadline": 9446
+  },
+  "preference_order": [
+    "task",
+    "deadline",
+    "question"
+  ],
+  "sources": {
+    "tasks_processed": 9997,
+    "deadlines_processed": 9446,
+    "questions_processed": 806586
+  }
+}

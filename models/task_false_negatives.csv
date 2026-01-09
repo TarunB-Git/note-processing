@@ -1,0 +1,118 @@
+sentence,sentence_orig,label,label_source,has_signoff,provenance,token_count,char_len,word_count,true,pred
+canadian passports,canadian passports,task,mslatte,0,mslatte,2,18,2,task,question
+listen to audio books,listen to audio books,task,mslatte,0,mslatte,4,21,4,task,question
+apply to jp morgan,apply to jp morgan,task,mslatte,0,mslatte,4,18,4,task,question
+do tsa precheck,do tsa precheck,task,mslatte,0,mslatte,3,15,3,task,question
+food handler card,food handler card,task,mslatte,0,mslatte,3,17,3,task,question
+surgery preferences,surgery preferences,task,mslatte,0,mslatte,2,19,2,task,question
+tmobile tuesdays,tmobile tuesdays,task,mslatte,0,mslatte,2,16,2,task,question
+optimize ads,optimize ads,task,mslatte,0,mslatte,2,12,2,task,question
+cheer competition,cheer competition,task,mslatte,0,mslatte,2,17,2,task,question
+texture gun,texture gun,task,mslatte,0,mslatte,2,11,2,task,question
+language test,language test,task,mslatte,0,mslatte,2,13,2,task,question
+buy curtains and curtain rod,buy curtains and curtain rod,task,mslatte,0,mslatte,5,28,5,task,question
+isao cider vinegar,isao cider vinegar,task,mslatte,0,mslatte,3,18,3,task,question
+inventory valuation,inventory valuation,task,mslatte,0,mslatte,2,19,2,task,question
+drink a litre of water,drink a litre of water,task,mslatte,0,mslatte,5,22,5,task,question
+advisor agreements,advisor agreements,task,mslatte,0,mslatte,2,18,2,task,question
+web site pages,web site pages,task,mslatte,0,mslatte,3,14,3,task,question
+pregnancy yoga,pregnancy yoga,task,mslatte,0,mslatte,2,14,2,task,question
+install carbon monoxide detector,install carbon monoxide detector,task,mslatte,0,mslatte,4,32,4,task,question
+cancel american amazon prime,cancel american amazon prime,task,mslatte,0,mslatte,4,28,4,task,question
+setting spray urban decay,setting spray urban decay,task,mslatte,0,mslatte,4,25,4,task,question
+tax statements,tax statements,task,mslatte,0,mslatte,2,14,2,task,question
+bankruptcy payment,bankruptcy payment,task,mslatte,0,mslatte,2,18,2,task,question
+work on power point,work on power point,task,mslatte,0,mslatte,4,19,4,task,question
+bake scones,bake scones,task,mslatte,0,mslatte,2,11,2,task,question
+order krispy kreme,order krispy kreme,task,mslatte,0,mslatte,3,18,3,task,question
+barclays debit card,barclays debit card,task,mslatte,0,mslatte,3,19,3,task,question
+drivers license address change,drivers license address change,task,mslatte,0,mslatte,4,30,4,task,question
+deflea cats,deflea cats,task,mslatte,0,mslatte,2,11,2,task,question
+intro discussion,intro discussion,task,mslatte,0,mslatte,2,16,2,task,question
+install momentum chrome extension,install momentum chrome extension,task,mslatte,0,mslatte,4,33,4,task,question
+edit articles,edit articles,task,mslatte,0,mslatte,2,13,2,task,question
+cosine similarity,cosine similarity,task,mslatte,0,mslatte,2,17,2,task,question
+dissertation edits,dissertation edits,task,mslatte,0,mslatte,2,18,2,task,question
+return old navy gap,return old navy gap,task,mslatte,0,mslatte,4,19,4,task,question
+development action plan,development action plan,task,mslatte,0,mslatte,3,23,3,task,question
+whole wheat spiral pasta,whole wheat spiral pasta,task,mslatte,0,mslatte,4,24,4,task,question
+change safe codes,change safe codes,task,mslatte,0,mslatte,3,17,3,task,question
+do script,do script,task,mslatte,0,mslatte,2,9,2,task,question
+news stories,news stories,task,mslatte,0,mslatte,2,12,2,task,question
+buy gift for secret santa,buy gift for secret santa,task,mslatte,0,mslatte,5,25,5,task,question
+oxidation and reduction,oxidation and reduction,task,mslatte,0,mslatte,3,23,3,task,question
+make chrome default browser,make chrome default browser,task,mslatte,0,mslatte,4,27,4,task,question
+change batteries in smoke detectors,change batteries in smoke detectors,task,mslatte,0,mslatte,5,35,5,task,question
+deepika cider vinegar,deepika cider vinegar,task,mslatte,0,mslatte,3,21,3,task,question
+doderant,doderant,task,mslatte,0,mslatte,1,8,1,task,question
+pay bcc rates,pay bcc rates,task,mslatte,0,mslatte,3,13,3,task,question
+pirate booty,pirate booty,task,mslatte,0,mslatte,2,12,2,task,question
+assistant gifts,assistant gifts,task,mslatte,0,mslatte,2,15,2,task,question
+go to asian market,go to asian market,task,mslatte,0,mslatte,4,18,4,task,question
+salary process,salary process,task,mslatte,0,mslatte,2,14,2,task,question
+jamaica research,jamaica research,task,mslatte,0,mslatte,2,16,2,task,question
+career pathway,career pathway,task,mslatte,0,mslatte,2,14,2,task,question
+garlic oil,garlic oil,task,mslatte,0,mslatte,2,10,2,task,question
+biopsy results,biopsy results,task,mslatte,0,mslatte,2,14,2,task,question
+online education,online education,task,mslatte,0,mslatte,2,16,2,task,question
+uv film,uv film,task,mslatte,0,mslatte,2,7,2,task,question
+related products,related products,task,mslatte,0,mslatte,2,16,2,task,question
+shift coverage,shift coverage,task,mslatte,0,mslatte,2,14,2,task,question
+add paragraphs and images to your thinglink project,add paragraphs and images to your thinglink project,task,mslatte,0,mslatte,8,51,8,task,question
+buy carbon monoxide detectors,buy carbon monoxide detectors,task,mslatte,0,mslatte,4,29,4,task,question
+annual catholic appeal,annual catholic appeal,task,mslatte,0,mslatte,3,22,3,task,question
+roaming options,roaming options,task,mslatte,0,mslatte,2,15,2,task,question
+crossfit membership,crossfit membership,task,mslatte,0,mslatte,2,19,2,task,question
+load dirty dishes into dishwasher,load dirty dishes into dishwasher,task,mslatte,0,mslatte,5,33,5,task,question
+member benefits,member benefits,task,mslatte,0,mslatte,2,15,2,task,question
+schedule fingerprints,schedule fingerprints,task,mslatte,0,mslatte,2,21,2,task,question
+exhibitor badges,exhibitor badges,task,mslatte,0,mslatte,2,16,2,task,question
+congratulations email,congratulations email,task,mslatte,0,mslatte,2,21,2,task,question
+statement of purpose,statement of purpose,task,mslatte,0,mslatte,3,20,3,task,question
+kokedama,kokedama,task,mslatte,0,mslatte,1,8,1,task,question
+path of exile,path of exile,task,mslatte,0,mslatte,3,13,3,task,question
+recite holy quran,recite holy quran,task,mslatte,0,mslatte,3,17,3,task,question
+transfer vhs to dvd,transfer vhs to dvd,task,mslatte,0,mslatte,4,19,4,task,question
+monitor,monitor,task,mslatte,0,mslatte,1,7,1,task,question
+kcentra,kcentra,task,mslatte,0,mslatte,1,7,1,task,question
+european wax,european wax,task,mslatte,0,mslatte,2,12,2,task,question
+markdown here,markdown here,task,mslatte,0,mslatte,2,13,2,task,question
+do breathing exercises,do breathing exercises,task,mslatte,0,mslatte,3,22,3,task,question
+shadow of the vampire,shadow of the vampire,task,mslatte,0,mslatte,4,21,4,task,question
+actors access,actors access,task,mslatte,0,mslatte,2,13,2,task,question
+18 min cardio,18 min cardio,task,mslatte,0,mslatte,3,13,3,task,question
+benerin printer,benerin printer,task,mslatte,0,mslatte,2,15,2,task,question
+watch civil war,watch civil war,task,mslatte,0,mslatte,3,15,3,task,question
+cub scout campout,cub scout campout,task,mslatte,0,mslatte,3,17,3,task,question
+pharmacademic,pharmacademic,task,mslatte,0,mslatte,1,13,1,task,question
+set up outlook on iphone,set up outlook on iphone,task,mslatte,0,mslatte,5,24,5,task,question
+amazon customer service,amazon customer service,task,mslatte,0,mslatte,3,23,3,task,question
+code of business conduct,code of business conduct,task,mslatte,0,mslatte,4,24,4,task,question
+make an instagram post,make an instagram post,task,mslatte,0,mslatte,4,22,4,task,question
+urinary system,urinary system,task,mslatte,0,mslatte,2,14,2,task,question
+pre departure form,pre departure form,task,mslatte,0,mslatte,3,18,3,task,question
+pull weeds from garden,pull weeds from garden,task,mslatte,0,mslatte,4,22,4,task,question
+costco concierge,costco concierge,task,mslatte,0,mslatte,2,16,2,task,question
+razors,razors,task,mslatte,0,mslatte,1,6,1,task,question
+phylogenetic tree,phylogenetic tree,task,mslatte,0,mslatte,2,17,2,task,question
+next weeks menu,next weeks menu,task,mslatte,0,mslatte,3,15,3,task,question
+exercise dvds,exercise dvds,task,mslatte,0,mslatte,2,13,2,task,question
+take dishes out of the dishwasher,take dishes out of the dishwasher,task,mslatte,0,mslatte,6,33,6,task,question
+spanish word search,spanish word search,task,mslatte,0,mslatte,3,19,3,task,question
+super contribution,super contribution,task,mslatte,0,mslatte,2,18,2,task,question
+kpi scorecard,kpi scorecard,task,mslatte,0,mslatte,2,13,2,task,question
+use aeroplan,use aeroplan,task,mslatte,0,mslatte,2,12,2,task,question
+txt mandy,txt mandy,task,mslatte,0,mslatte,2,9,2,task,question
+respond to all text messages,respond to all text messages,task,mslatte,0,mslatte,5,28,5,task,question
+company brochure,company brochure,task,mslatte,0,mslatte,2,16,2,task,question
+change barclays address,change barclays address,task,mslatte,0,mslatte,3,23,3,task,question
+learn how to make website,learn how to make website,task,mslatte,0,mslatte,5,25,5,task,question
+take car in for maintenance,take car in for maintenance,task,mslatte,0,mslatte,5,27,5,task,question
+program sprinkler system,program sprinkler system,task,mslatte,0,mslatte,3,24,3,task,question
+good meal,good meal,task,mslatte,0,mslatte,2,9,2,task,question
+nutcracker movie,nutcracker movie,task,mslatte,0,mslatte,2,16,2,task,question
+schedule matrix,schedule matrix,task,mslatte,0,mslatte,2,15,2,task,question
+shower teeth,shower teeth,task,mslatte,0,mslatte,2,12,2,task,question
+boa debit card,boa debit card,task,mslatte,0,mslatte,3,14,3,task,question
+check on global entry status,check on global entry status,task,mslatte,0,mslatte,5,28,5,task,question
+strength exercises,strength exercises,task,mslatte,0,mslatte,2,18,2,task,question

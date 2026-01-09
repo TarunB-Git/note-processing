@@ -1,0 +1,74 @@
+sentence,sentence_orig,label,label_source,has_signoff,provenance,token_count,char_len,word_count,true,pred
+reduce morning eye redness,reduce morning eye redness,question,msmarco,0,msmarco,4,26,4,question,task
+cover letter accounting,cover letter accounting,question,msmarco,0,msmarco,3,23,3,question,task
+crm for insurance,crm for insurance,question,msmarco,0,msmarco,3,17,3,question,task
+earth day shirt,earth day shirt,question,msmarco,0,msmarco,3,15,3,question,task
+pay credit card costco,pay credit card costco,question,msmarco,0,msmarco,4,22,4,question,task
+skype powershell,skype powershell,question,msmarco,0,msmarco,2,16,2,question,task
+hat in a bag,hat in a bag,question,msmarco,0,msmarco,4,12,4,question,task
+zinc ointment,zinc ointment,question,msmarco,0,msmarco,2,13,2,question,task
+io podcast,io podcast,question,msmarco,0,msmarco,2,10,2,question,task
+copy stand,copy stand,question,msmarco,0,msmarco,2,10,2,question,task
+tryptophan turns into,tryptophan turns into,question,msmarco,0,msmarco,3,21,3,question,task
+bacteria family,bacteria family,question,msmarco,0,msmarco,2,15,2,question,task
+the donut store,the donut store,question,msmarco,0,msmarco,3,15,3,question,task
+seasons calendar,seasons calendar,question,msmarco,0,msmarco,2,16,2,question,task
+coconut tea,coconut tea,question,msmarco,0,msmarco,2,11,2,question,task
+test prep tsa,test prep tsa,question,msmarco,0,msmarco,3,13,3,question,task
+hatake clan,hatake clan,question,msmarco,0,msmarco,2,11,2,question,task
+dog car/booster seat,dog car/booster seat,question,msmarco,0,msmarco,3,20,3,question,task
+feet cracked,feet cracked,question,msmarco,0,msmarco,2,12,2,question,task
+ibuprofen plus,ibuprofen plus,question,msmarco,0,msmarco,2,14,2,question,task
+american express payment due,american express payment due,question,msmarco,0,msmarco,4,28,4,question,task
+all about iq,all about iq,question,msmarco,0,msmarco,3,12,3,question,task
+ups box requirements,ups box requirements,question,msmarco,0,msmarco,3,20,3,question,task
+hotel in zug,hotel in zug,question,msmarco,0,msmarco,3,12,3,question,task
+number for collect call,number for collect call,question,msmarco,0,msmarco,4,23,4,question,task
+benefits documentation advisory,benefits documentation advisory,question,msmarco,0,msmarco,3,31,3,question,task
+health insurance rehn,health insurance rehn,question,msmarco,0,msmarco,3,21,3,question,task
+b2c stand for,b2c stand for,question,msmarco,0,msmarco,3,13,3,question,task
+internet fax,internet fax,question,msmarco,0,msmarco,2,12,2,question,task
+earnest payment,earnest payment,question,msmarco,0,msmarco,2,15,2,question,task
+weeks act,weeks act,question,msmarco,0,msmarco,2,9,2,question,task
+reseller's permit,reseller's permit,question,msmarco,0,msmarco,2,17,2,question,task
+unpaid claims reserve,unpaid claims reserve,question,msmarco,0,msmarco,3,21,3,question,task
+118.5/2,118.5/2,question,msmarco,0,msmarco,1,7,1,question,task
+pa dmv contact,pa dmv contact,question,msmarco,0,msmarco,3,14,3,question,task
+bonding primer,bonding primer,question,msmarco,0,msmarco,2,14,2,question,task
+do base pay,do base pay,question,msmarco,0,msmarco,3,11,3,question,task
+hawking books,hawking books,question,msmarco,0,msmarco,2,13,2,question,task
+forms of algae,forms of algae,question,msmarco,0,msmarco,3,14,3,question,task
+army baq pay,army baq pay,question,msmarco,0,msmarco,3,12,3,question,task
+chinese goose,chinese goose,question,msmarco,0,msmarco,2,13,2,question,task
+commissioners agenda,commissioners agenda,question,msmarco,0,msmarco,2,20,2,question,task
+tire tax form,tire tax form,question,msmarco,0,msmarco,3,13,3,question,task
+ebt scan,ebt scan,question,msmarco,0,msmarco,2,8,2,question,task
+thicken my soup,thicken my soup,question,msmarco,0,msmarco,3,15,3,question,task
+anytime laundry,anytime laundry,question,msmarco,0,msmarco,2,15,2,question,task
+engineering physics,engineering physics,question,msmarco,0,msmarco,2,19,2,question,task
+ga driving test tips,ga driving test tips,question,msmarco,0,msmarco,4,20,4,question,task
+process of planning,process of planning,question,msmarco,0,msmarco,3,19,3,question,task
+balance squats,balance squats,question,msmarco,0,msmarco,2,14,2,question,task
+tsa precheck appointment,tsa precheck appointment,question,msmarco,0,msmarco,3,24,3,question,task
+turkish pm,turkish pm,question,msmarco,0,msmarco,2,10,2,question,task
+canning food pre,canning food pre,question,msmarco,0,msmarco,3,16,3,question,task
+fold up steps,fold up steps,question,msmarco,0,msmarco,3,13,3,question,task
+unlock bolt,unlock bolt,question,msmarco,0,msmarco,2,11,2,question,task
+cgview server,cgview server,question,msmarco,0,msmarco,2,13,2,question,task
+sweet gasoline,sweet gasoline,question,msmarco,0,msmarco,2,14,2,question,task
+jp printer,jp printer,question,msmarco,0,msmarco,2,10,2,question,task
+urban planner,urban planner,question,msmarco,0,msmarco,2,13,2,question,task
+bridges exercises,bridges exercises,question,msmarco,0,msmarco,2,17,2,question,task
+vinesauce link,vinesauce link,question,msmarco,0,msmarco,2,14,2,question,task
+callie cobra,callie cobra,question,msmarco,0,msmarco,2,12,2,question,task
+the fair/corporate,the fair/corporate,question,msmarco,0,msmarco,2,18,2,question,task
+amcpx dividends,amcpx dividends,question,msmarco,0,msmarco,2,15,2,question,task
+wash gas pay bill,wash gas pay bill,question,msmarco,0,msmarco,4,17,4,question,task
+photoshop add mask to layer,photoshop add mask to layer,question,msmarco,0,msmarco,5,27,5,question,task
+guiness beef stew,guiness beef stew,question,msmarco,0,msmarco,3,17,3,question,task
+create a test plan schedule,create a test plan schedule,question,msmarco,0,msmarco,5,27,5,question,task
+team envy,team envy,question,msmarco,0,msmarco,2,9,2,question,task
+book lice orkin,book lice orkin,question,msmarco,0,msmarco,3,15,3,question,task
+hourly forms,hourly forms,question,msmarco,0,msmarco,2,12,2,question,task
+contract accounting,contract accounting,question,msmarco,0,msmarco,2,19,2,question,task
+pay for speeding ticket,pay for speeding ticket,question,msmarco,0,msmarco,4,23,4,question,task

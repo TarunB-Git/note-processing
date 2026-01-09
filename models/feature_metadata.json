@@ -1,0 +1,61 @@
+{
+  "created": "2026-01-08T14:05:14.043396",
+  "n_examples": 826026,
+  "word_ngram_range": [
+    1,
+    3
+  ],
+  "word_max_features": 250000,
+  "char_ngram_range": [
+    3,
+    5
+  ],
+  "char_max_features": 100000,
+  "cue_vocab": [
+    "deadline",
+    "due",
+    "no later than",
+    "due by",
+    "deadline for",
+    "by",
+    "before",
+    "until",
+    "on or before",
+    "eod",
+    "cob",
+    "asap",
+    "tomorrow",
+    "today",
+    "next",
+    "in",
+    "at",
+    "before noon",
+    "due on",
+    "expected by",
+    "no later"
+  ],
+  "engineered_feature_count": 20,
+  "engineered_feature_names": [
+    "token_count",
+    "avg_token_len",
+    "unique_ratio",
+    "numeric_ratio",
+    "has_digit",
+    "has_weekday",
+    "has_month",
+    "has_time",
+    "has_relative",
+    "has_duration",
+    "has_question_word",
+    "starts_imperative",
+    "has_currency",
+    "has_url_email",
+    "q_marks",
+    "excl_marks",
+    "dashes",
+    "commas",
+    "colons",
+    "ends_with_question"
+  ],
+  "spaCy_enabled": false
+}
