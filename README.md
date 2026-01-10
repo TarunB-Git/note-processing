@@ -25,7 +25,8 @@ This repository contains:
 
 ## To Rerun
 1. Run:
-    ```python src/train_note_classifier.py \
+    ```bash
+    python src/train_note_classifier.py \
           --tasks data/processed/tasks_processed.csv \
           --questions data/processed/questions_processed.csv \
           --deadlines data/processed/deadlines_processed.csv \
