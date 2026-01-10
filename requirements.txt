@@ -1,4 +1,14 @@
 pandas
 matplotlib
 scikit-learn
-spacy
+python-dateutil>=2.8
+numpy>=1.22
+scipy>=1.8
+pandas>=1.4
+scikit-learn>=1.2
+joblib>=1.1
+streamlit>=1.18
+dateparser>=1.1
+matplotlib>=3.5
+seaborn>=0.12
+
