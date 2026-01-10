@@ -25,13 +25,13 @@ This repository contains:
 
 ## To Rerun
 1. Run:
-    python src/train_note_classifier.py \
-  --tasks data/processed/tasks_processed.csv \
-  --questions data/processed/questions_processed.csv \
-  --deadlines data/processed/deadlines_processed.csv \
-  --out_dir models \
-  --sample_questions 0 \
-  --seed 42
+    ```python src/train_note_classifier.py \
+          --tasks data/processed/tasks_processed.csv \
+          --questions data/processed/questions_processed.csv \
+          --deadlines data/processed/deadlines_processed.csv \
+          --out_dir models \
+          --sample_questions 0 \
+          --seed 42
   
  sample_questions 0 uses all question examples (no subsampling).
  
