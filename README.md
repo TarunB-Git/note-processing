@@ -1,4 +1,4 @@
-# Note Classification — SVC-based System
+# Note Classification: SVC-based System
 
 Project: Note Classification Using Support Vector Machines
 Language: Python 3.8+
