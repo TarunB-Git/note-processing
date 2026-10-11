@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
+    <TextView android:id="@+id/widget_check" android:layout_width="56dp" android:layout_height="56dp" android:gravity="center" android:textSize="30sp" android:textColor="#25D3A6" android:contentDescription="@string/todo_toggle" />
+    <TextView android:id="@+id/widget_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:minHeight="56dp" android:gravity="center_vertical" android:textSize="16sp" android:textColor="#E9EDEF" android:padding="4dp" />
+</LinearLayout>

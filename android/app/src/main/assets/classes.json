@@ -1,0 +1,107 @@
+[
+  {
+    "name": "thoughts",
+    "title": "Thoughts",
+    "description": "A personal observation, reflection, memory, feeling, story fragment, or random note.",
+    "examples": [
+      "The city feels different when it rains.",
+      "I miss the old library.",
+      "Time seems to pass faster as I get older.",
+      "Coffee tasted strange this morning.",
+      "The dragon sleeps beneath the abandoned station.",
+      "I learned that trees communicate through fungi.",
+      "The meeting went well.",
+      "I keep thinking about that conversation."
+    ]
+  },
+  {
+    "name": "ideas",
+    "title": "Ideas",
+    "description": "A proposed possibility, invention, improvement, creative concept, or suggestion.",
+    "examples": [
+      "What if notebooks could sort themselves?",
+      "We could build a tiny solar powered greenhouse.",
+      "Maybe start a neighborhood book exchange.",
+      "Idea for a story: a city that forgets its name.",
+      "A browser extension that remembers useful quotes.",
+      "How about adding a weekly summary?",
+      "It would be useful to search notes by mood.",
+      "Could build a lamp from recycled glass."
+    ]
+  },
+  {
+    "name": "todos",
+    "title": "To-do",
+    "description": "An action, intention, reminder, obligation, or task to complete.",
+    "examples": [
+      "Buy milk tomorrow.",
+      "I need to reply to the landlord.",
+      "Remember to book the dentist.",
+      "Finish the report by Friday.",
+      "Get a new passport.",
+      "Email Sam about the meeting.",
+      "Pick up the parcel.",
+      "Clean the kitchen."
+    ]
+  },
+  {
+    "name": "questions",
+    "title": "Questions",
+    "description": "A request for an answer, explanation, information, or something to investigate.",
+    "examples": [
+      "Why do leaves change color?",
+      "How does a database index work?",
+      "Where did I leave the charger?",
+      "Can I freeze this soup?",
+      "What time does the train leave?",
+      "Is the library open on Sunday?",
+      "Does this approach work offline?",
+      "Which book should I read first?"
+    ]
+  },
+  {
+    "name": "links",
+    "title": "Links",
+    "description": "A saved website, reference URL, Markdown link, or bookmark.",
+    "examples": [
+      "https://example.com/article",
+      "Interesting reading: https://example.org/notes",
+      "[Course](https://example.edu/course)",
+      "https://github.com/example/project",
+      "www.example.com",
+      "Documentation: https://example.dev/docs",
+      "Recipe https://example.org/soup",
+      "https://example.net/video"
+    ]
+  },
+  {
+    "name": "junk",
+    "title": "Junk / code",
+    "description": "Code snippets, logs, markup, attachment placeholders, test strings, or discarded noise.",
+    "examples": [
+      "IMG-20260421-WA0012.jpg (file attached)",
+      "image omitted",
+      "asdf",
+      "test test",
+      "const value = 42;",
+      "def add(a, b): return a + b",
+      "Traceback (most recent call last):",
+      "<div class=\"content\">hello</div>"
+    ]
+  },
+  {
+    "name": "work",
+    "title": "Work",
+    "description": "Company updates, client context, team decisions, project status, or professional information to retain. Explicit actions can still be to-dos.",
+    "examples": [
+      "The client approved the revised roadmap.",
+      "Our team owns the billing service.",
+      "The launch was moved to the next quarter.",
+      "The company is opening a new office.",
+      "The engineering meeting covered capacity planning.",
+      "The customer prefers weekly status reports.",
+      "The project budget was approved.",
+      "The new team lead starts next month."
+    ]
+  }
+]

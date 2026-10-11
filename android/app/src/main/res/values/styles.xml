@@ -1,0 +1,35 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#008069</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="colorPrimary">#008069</item>
+        <item name="colorPrimaryVariant">#008069</item>
+        <item name="colorSecondary">#008069</item>
+        <item name="android:windowAnimationStyle">@style/DialogMotion</item>
+        <item name="android:popupMenuStyle">@style/ChatPopup</item>
+    </style>
+    <style name="AppThemeDark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#25D3A6</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">#111B21</item>
+        <item name="android:navigationBarColor">#111B21</item>
+        <item name="android:colorBackground">#111B21</item>
+        <item name="colorPrimary">#25D3A6</item>
+        <item name="colorSecondary">#25D3A6</item>
+        <item name="android:windowAnimationStyle">@style/DialogMotion</item>
+    </style>
+    <style name="ChatPopup" parent="android:style/Widget.Material.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/popup_background</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="DialogMotion">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+</resources>

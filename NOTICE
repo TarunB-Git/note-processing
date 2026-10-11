@@ -1,0 +1,11 @@
+Note Chat
+Copyright 2026 Note Chat contributors
+
+The Android application (android/), desktop organizer (desktop/), project
+documentation, and build workflows are licensed under the Apache License,
+Version 2.0. See LICENSE.
+
+Historical material in archive/v1/ is excluded from this license grant.
+Third-party code, models, and datasets retain their original licenses and
+attributions. Android dependency notices are included in
+android/app/src/main/assets/NOTICE.txt with the corresponding license texts.

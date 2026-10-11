@@ -1,0 +1,18 @@
+Note Chat
+Copyright 2026 Note Chat contributors
+Apache License 2.0. See LICENSE-Note-Chat.txt.
+
+Markwon: Copyright 2017 Dimitry Ivanov (noties), Apache License 2.0.
+https://github.com/noties/Markwon
+CommonMark Java: Copyright 2015 Robin Stocker, BSD 2-Clause License.
+https://github.com/commonmark/commonmark-java
+Material Components for Android: Copyright The Android Open Source Project, Apache License 2.0.
+https://github.com/material-components/material-components-android
+ONNX Runtime: Copyright Microsoft Corporation, MIT License.
+MiniLM vocabulary and optional model: sentence-transformers/all-MiniLM-L6-v2, Apache License 2.0.
+The corresponding license texts are included in this directory.
+
+Vosk API and optional small English model: Alpha Cephei Inc., Apache License 2.0.
+https://github.com/alphacep/vosk-api
+JNA: Java Native Access contributors, Apache License 2.0 (dual licensed).
+https://github.com/java-native-access/jna

@@ -1,0 +1,6 @@
+<resources>
+    <string name="widget_description">A scrollable checklist of Note Chat tasks</string>
+    <string name="todo_title">To-do</string>
+    <string name="todo_empty">No tasks</string>
+    <string name="todo_toggle">Toggle task completion</string>
+</resources>

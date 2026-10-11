@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "note-processing"
+version = "2.1.0"
+description = "A local note organizer that learns from corrections"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "onnxruntime>=1.18,<2", "tokenizers>=0.20,<1"]
+
+[project.optional-dependencies]
+training = ["setfit>=1.1,<2", "torch>=2.5", "onnx>=1.16,<2"]
+
+[project.scripts]
+note-processing = "note_processing.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+note_processing = ["web/*", "config/*.json"]

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Organize notes into thoughts, ideas, tasks, questions, links, and code. Learn from corrections on your own machine.">
+  <title>Note Processing</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="Note Processing home"><span class="brand-mark">n.</span><span>Note Processing<small>LOCAL WORKSPACE</small></span></a>
+    <nav aria-label="Workspace views">
+      <button class="nav-button active" data-view="notes"><span>Notes</span><span id="nav-total">0</span></button>
+      <button class="nav-button" data-view="outputs">Output files</button>
+      <button class="nav-button" data-view="learning">Learning</button>
+    </nav>
+    <div class="sidebar-heading"><span>CATEGORIES</span><button id="manage" aria-label="Edit categories" title="Edit categories">＋</button></div>
+    <nav id="categories" aria-label="Categories"></nav>
+    <button id="review-filter" class="nav-button review-link">Review <span id="review-count">0</span></button>
+    <div class="sidebar-footer"><span class="online-dot"></span> Runs on your machine<small id="model-status">Loading classifier…</small></div>
+  </aside>
+  <main>
+    <header class="page-header">
+      <div><p class="eyebrow">YOUR NOTES, ORGANIZED</p><h1 id="page-title">Notes</h1><p id="page-subtitle">Sort a file, correct a category, and keep the useful parts.</p></div>
+      <button id="import" class="primary">Import notes <span>＋</span></button>
+    </header>
+    <div id="error" class="error" role="alert" hidden></div>
+    <div id="job-panel" class="job-panel" hidden><div><strong id="job-message"></strong><button id="cancel-job" class="text-button">Cancel</button></div><progress id="job-progress" max="100"></progress></div>
+    <section id="notes-view">
+      <div class="workspace-toolbar">
+        <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search notes or sources" aria-label="Search notes"></label>
+        <div class="segmented" aria-label="Note layout"><button id="board-view" class="active" aria-pressed="true">Board</button><button id="table-view" aria-pressed="false">Table</button></div>
+        <button id="reclassify" class="secondary">Reclassify</button>
+      </div>
+      <div class="workspace-summary"><span id="summary">0 notes</span><label><input id="highlights" type="checkbox"> Show word matches</label><button id="undo" class="text-button">Undo move</button></div>
+      <div id="bulk-bar" class="bulk-bar" hidden><strong id="selection-count"></strong><select id="bulk-category" aria-label="Move selected notes to category"></select><button id="move-selected" class="primary">Move &amp; teach</button><button id="confirm-selected" class="secondary">Confirm predictions</button><button id="group-selected" class="secondary">Group &amp; teach</button><button id="clear-selection" class="text-button">Clear</button></div>
+      <div id="empty" class="empty-state"><div class="empty-mark">↳</div><h2>A place for the notes you’ve collected.</h2><p>Import a text or Markdown file. Thoughts, ideas, to-dos, questions, links, and code get their own section.</p><button id="empty-import" class="primary">Import your first notes</button></div>
+      <div id="board" class="board" aria-label="Category board"></div>
+      <div id="table-wrap" class="table-wrap" hidden><table><thead><tr><th><input id="select-page" type="checkbox" aria-label="Select this page"></th><th>Note</th><th>Category</th><th>Source</th><th>Due</th></tr></thead><tbody id="note-table"></tbody></table><div class="pagination"><button id="previous-page" class="secondary">Previous</button><span id="page-info"></span><button id="next-page" class="secondary">Next</button></div></div>
+    </section>
+    <section id="outputs-view" hidden>
+      <div class="section-banner"><div><h2>One file per category</h2><p id="output-root"></p></div><div class="button-row"><button id="download-zip" class="secondary">Download ZIP</button><button id="save-files" class="primary">Save files</button></div></div>
+      <div class="output-layout"><div id="output-list" class="output-list"></div><section class="file-preview"><div class="file-heading"><strong id="preview-name"></strong><select id="preview-kind" aria-label="Output preview"><option value="current">Current notes</option><option value="saved">File on disk</option></select></div><pre id="output-preview"></pre></section></div>
+      <p class="muted">Moves update the preview immediately. Save files to write them to disk. Imported source files are protected.</p>
+      <label class="overwrite"><input id="overwrite" type="checkbox"> Replace existing files that were not generated here or have been edited</label>
+    </section>
+    <section id="learning-view" hidden>
+      <div class="learning-stats"><div><small>CONFIRMED NOTES</small><strong id="confirmed-count">0</strong></div><div><small>ACTIVE CLASSIFIER</small><strong id="active-head">Starter</strong></div><div><small>HELD-OUT MACRO F1</small><strong id="f1-stat">-</strong></div></div>
+      <div class="learning-grid"><section class="panel"><p class="eyebrow">01 / CORRECT</p><h2>Your choices are the training data.</h2><p>Drag a note to another section, use its category menu, or confirm a correct prediction. Each choice is saved locally. Repeated notes remember your label; close examples guide new notes.</p><div id="training-counts"></div><button id="download-labels" class="text-button">Export confirmed labels · JSONL</button></section>
+      <section class="panel"><p class="eyebrow">02 / TRAIN &amp; COMPARE</p><h2>Teach the classifier your boundaries.</h2><p>Start with the small head. It learns from note embeddings and wording cues. Encoder fine-tuning also adapts MiniLM’s representations, using the optional training install.</p><div class="button-row"><button id="train-head" class="primary">Train small classifier</button><button id="train-encoder" class="secondary">Fine-tune encoder</button></div><p class="muted">Confirm at least 6 different notes in every category. Training reserves about 20% by category and keeps the split stable, reports mistakes, and keeps the starter baseline if the candidate scores lower. A small test set is only an early signal.</p><code>pip install -e ".[training]"</code></section></div>
+      <section id="report-panel" class="panel report-panel" hidden><div class="section-banner"><h2>Last training run</h2><span id="report-status"></span></div><p id="report-summary"></p><div id="report-table"></div><div id="report-mistakes"></div></section>
+      <section class="panel deeper-panel"><p class="eyebrow">03 / SECOND OPINION</p><h2>Spend more time on difficult notes.</h2><p>Reclassify selected notes with an optional local language model. It uses the categories and a few confirmed examples, then returns a short explanation, a supporting phrase, and an alternative category. Thinking mode allows a larger generation budget.</p><code>ollama pull qwen3:1.7b</code><p class="muted">Separate 1.4 GB download; RAM use exceeds the small classifier. A longer run can help with ambiguity, but it is not an accuracy guarantee.</p></section>
+    </section>
+  </main>
+  <dialog id="import-dialog"><form id="import-form"><div class="dialog-heading"><div><p class="eyebrow">ADD TO WORKSPACE</p><h2>Import notes</h2></div><button type="button" data-close="import-dialog" aria-label="Close import">×</button></div><div class="tabs" role="tablist"><button type="button" data-input="paste" class="active" role="tab" aria-selected="true">Paste text</button><button type="button" data-input="files" role="tab" aria-selected="false">Files / folder</button><button type="button" data-input="local" role="tab" aria-selected="false">Local path</button></div>
+    <div id="paste-panel"><label for="paste-text">Notes</label><textarea id="paste-text" rows="9" placeholder="Buy milk tomorrow&#10;What if we made a community garden?&#10;https://example.com/article"></textarea></div>
+    <div id="files-panel" hidden><div id="dropzone" class="dropzone"><h3>Drop .txt or .md files here</h3><p>Links and code blocks are kept.</p><div class="button-row"><button id="pick-files" type="button" class="secondary">Choose files</button><button id="pick-directory" type="button" class="secondary">Choose folder</button></div><input id="file-picker" type="file" multiple accept=".txt,.md,.markdown" hidden><input id="directory-picker" type="file" webkitdirectory multiple hidden></div><p id="file-summary" class="muted">No files selected</p></div>
+    <div id="local-panel" hidden><label for="local-path">Path inside the input folder</label><p id="input-root" class="path"></p><div class="button-row"><input id="local-path" placeholder="notes.md or subfolder"><button id="browse" type="button" class="secondary">Browse</button></div><div id="folder-list" class="folder-list"></div></div>
+    <div class="form-row"><label>Split notes by<select id="split-mode"><option value="lines">Each line</option><option value="paragraphs">Paragraphs / list entries</option><option value="sentences">Sentences</option></select></label><label>Date reference<input id="anchor" type="date"></label></div>
+    <details><summary>Context and continued thoughts</summary><label>Reading guide · up to 1,000 words<textarea id="import-context" rows="4" placeholder="Explain your categories or the subject of these notes."></textarea></label><label>Include neighboring notes<select id="import-neighbors"><option value="0">None</option><option value="500">Up to 500 words before and after, combined</option><option value="1000">Up to 1,000 words before and after, combined</option></select></label><p class="muted">Use paragraphs for a continued thought. You can also select fragments on the board and group them into one note.</p></details>
+    <p class="muted">Imports add to the workspace. Reimporting the same source lines updates them; confirmed categories stay pinned. Up to 10,000 notes.</p><div class="dialog-actions"><button type="button" class="secondary" data-close="import-dialog">Cancel</button><button id="import-submit" class="primary">Import &amp; organize</button></div></form></dialog>
+  <dialog id="note-dialog"><div class="dialog-heading"><div><p class="eyebrow">NOTE DETAILS</p><h2 id="detail-title"></h2></div><button data-close="note-dialog" aria-label="Close note">×</button></div><div id="note-detail"></div></dialog>
+  <dialog id="reclassify-dialog"><form id="reclassify-form"><div class="dialog-heading"><h2>Reclassify notes</h2><button type="button" data-close="reclassify-dialog" aria-label="Close reclassify">×</button></div><p id="reclassify-scope"></p><label>Method<select id="engine"><option value="small">Small classifier · fast</option><option value="local">Local language model · second opinion</option><option value="thinking">Local language model · thinking</option></select></label><label id="model-field" hidden>Installed local model<select id="local-model"></select></label><p id="local-model-help" class="muted" hidden>Install Ollama, then run: <code>ollama pull qwen3:1.7b</code></p><label>Reading guide · up to 1,000 words<textarea id="reclassify-context" rows="3"></textarea></label><label>Neighboring context<select id="reclassify-neighbors"><option value="0">None</option><option value="500">Up to 500 words combined</option><option value="1000">Up to 1,000 words combined</option></select></label><label class="checkbox-label"><input id="include-confirmed" type="checkbox"> Reclassify confirmed notes too</label><p class="muted">Confirmed notes are kept by default. A second opinion stays a prediction until you confirm or move it.</p><div class="dialog-actions"><button type="button" class="secondary" data-close="reclassify-dialog">Cancel</button><button class="primary">Reclassify</button></div></form></dialog>
+  <dialog id="classes-dialog"><form id="classes-form"><div class="dialog-heading"><h2>Categories</h2><button type="button" data-close="classes-dialog" aria-label="Close categories">×</button></div><p class="muted">Use examples to define the boundary between categories. Moving notes builds a separate, uncapped correction dataset.</p><div id="class-editors"></div><button id="add-class" type="button" class="secondary">Add category</button><div class="dialog-actions"><button type="button" class="secondary" data-close="classes-dialog">Cancel</button><button class="primary">Save categories</button></div></form></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
