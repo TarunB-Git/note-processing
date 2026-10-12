@@ -6,7 +6,7 @@ import kotlin.math.sqrt
 
 interface SentenceEncoder { val identity: String; fun encode(text: String): FloatArray }
 
-class TextClassifier(private val encoder: SentenceEncoder?) {
+class TextClassifier(private val encoder: SentenceEncoder?, private val timing: (Long)->Unit = {}) {
     private val dimensions = 524
     private var categories = emptyList<Category>()
     private var approved = emptyList<Message>()
@@ -27,6 +27,7 @@ class TextClassifier(private val encoder: SentenceEncoder?) {
 
     @Synchronized fun configure(classes: List<Category>, confirmations: List<Message>, saved: PersonalHead? = null, splits: Map<String, String> = emptyMap()) {
         categories = classes
+        if(classes.isEmpty())cache.clear()
         approved = confirmations.filter { it.approved && it.deleted == null && it.trainable() && classes.any { c -> c.id == it.category } }
         vectors = approved.map { feature(it.text) }
         if(starterSignature!=signature()) { starter=if(classes.isEmpty())null else fit(seeds()); starterSignature=signature() }
@@ -159,7 +160,14 @@ class TextClassifier(private val encoder: SentenceEncoder?) {
     private var personalHead = false
     fun learned() = if (personalHead) head?.let { PersonalHead(signature(), it.weights.map { row -> row.toList() }, it.bias.toList()) } else null
     fun splits(): Map<String, String> = splitAssignments.toMap()
-    private fun signature() = stableHash((encoder?.identity ?: "lexical") + categories.joinToString("|") { "${it.id}:${it.description}:${it.examples.joinToString()}" })
-    @Synchronized fun classify(message: Message): Suggestion = predict(message, head, approved, vectors, personalHead)
+    private fun signature() = signature(categories,encoder?.identity)
+    companion object {
+        private fun signature(classes: List<Category>, identity: String?) = MessageDigest.getInstance("SHA-256").digest(normalized((identity ?: "lexical")+classes.joinToString("|") { "${it.id}:${it.description}:${it.examples.joinToString()}" }).toByteArray()).joinToString("") { "%02x".format(it) }
+        fun compatible(saved: PersonalHead, classes: List<Category>, identity: String?) = saved.signature==signature(classes,identity) && saved.weights.size==classes.size && saved.weights.all { row->row.size==524 && row.all(Float::isFinite) } && saved.bias.size==classes.size && saved.bias.all(Float::isFinite)
+    }
+    @Synchronized fun classify(message: Message): Suggestion {
+        val start=System.nanoTime()
+        return try { predict(message,head,approved,vectors,personalHead) } finally { timing(System.nanoTime()-start) }
+    }
     private fun stableHash(text: String) = MessageDigest.getInstance("SHA-256").digest(normalized(text).toByteArray()).joinToString("") { "%02x".format(it) }
 }

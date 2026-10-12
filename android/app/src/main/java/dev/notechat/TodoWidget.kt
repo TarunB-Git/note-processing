@@ -29,10 +29,13 @@ class TodoWidget : AppWidgetProvider() {
                 var locked=true
                 var deadline:Long?=null
                 try { Vault(app).useWorkspace { vault ->
-                    locked=vault.lockedStorage
+                    val cached=WidgetTasks(app).read()
+                    locked=vault.lockedStorage && cached==null
                     if(!locked) {
-                        vault.openWithoutLock()
-                        deadline=vault.load().messages.filter { it.deleted==null && it.done && it.completedAt!=null && !it.completedArchived() }.minOfOrNull { it.completedAt!!+ARCHIVE_DELAY_MS }
+                        val tasks=if(cached!=null)cached else { vault.openWithoutLock(); vault.load().messages }
+                        deadline=tasks.filter { it.deleted==null }.flatMap { task -> listOfNotNull(
+                            task.completedAt?.takeIf { task.done }?.plus(ARCHIVE_DELAY_MS),
+                            task.starArchiveAt?.takeIf { task.starred }?.plus(ARCHIVE_DELAY_MS)) }.filter { it>System.currentTimeMillis() }.minOrNull()
                     }
                 } } catch(_:Exception) { locked=true }
                 ids.forEach { id ->
@@ -65,17 +68,18 @@ class TodoWidgetService : RemoteViewsService() {
         override fun onCreate()=Unit
         override fun onDataSetChanged() {
             tasks=try { Vault(context).useWorkspace { vault ->
-                if(vault.lockedStorage)emptyList() else { vault.openWithoutLock(); vault.load().messages.filter { it.visible() && it.category=="todos" } }
+                WidgetTasks(context).read() ?: if(vault.lockedStorage)emptyList() else { vault.openWithoutLock(); vault.load().messages.filter { it.visible() && it.category=="todos" } }
             } } catch(_:Exception) { emptyList() }
         }
         override fun onDestroy() { tasks=emptyList() }
         override fun getCount()=tasks.size
         override fun getViewAt(position:Int):RemoteViews {
             val views=RemoteViews(context.packageName,R.layout.todo_widget_row)
-            val locked=try { Vault(context).useWorkspace { it.lockedStorage } } catch(_:Exception) { true }
+            val locked=try { Vault(context).useWorkspace { it.lockedStorage && WidgetTasks(context).read()==null } } catch(_:Exception) { true }
             if(locked)return views
             val task=tasks.getOrNull(position) ?: return views
             views.setTextViewText(R.id.widget_text,task.text.ifBlank { task.attachment?.name.orEmpty() })
+            views.setInt(R.id.widget_text,"setPaintFlags",android.graphics.Paint.ANTI_ALIAS_FLAG or if(task.done)android.graphics.Paint.STRIKE_THRU_TEXT_FLAG else 0)
             views.setTextViewText(R.id.widget_check,if(task.done)"☑" else "☐")
             views.setOnClickFillInIntent(R.id.widget_check,Intent().putExtra("widget_complete",task.id))
             views.setOnClickFillInIntent(R.id.widget_text,Intent().putExtra("widget_jump",task.id))

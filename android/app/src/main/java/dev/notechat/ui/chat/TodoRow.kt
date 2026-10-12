@@ -18,6 +18,7 @@ class TodoRow(context: Context, message: Message, colors: UiColors, markdown: Ma
         gravity = Gravity.CENTER_VERTICAL
         setPadding(dp(8), dp(4), dp(16), dp(4))
         check.apply {
+            setTag(R.id.guide_target,"task")
             isChecked = message.done; minimumWidth = dp(52); minimumHeight = dp(52)
             scaleX = 1.15f; scaleY = 1.15f
             buttonTintList = android.content.res.ColorStateList.valueOf(colors.accent)
@@ -27,6 +28,7 @@ class TodoRow(context: Context, message: Message, colors: UiColors, markdown: Ma
         addView(check, LayoutParams(dp(56), dp(56)))
         val content = LinearLayout(context).apply { orientation = VERTICAL }
         text.apply {
+            immediateTap=true
             textSize = 17f; setTextColor(if (message.done) colors.muted else colors.ink)
             markdown.render(this, message.text.ifBlank { message.attachment?.name.orEmpty() }, "") {}
             if (message.done) paintFlags = paintFlags or Paint.STRIKE_THRU_TEXT_FLAG

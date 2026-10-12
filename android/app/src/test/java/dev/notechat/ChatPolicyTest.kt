@@ -14,11 +14,11 @@ class ChatPolicyTest {
         engine.approve(note.id)
         assertEquals("work",engine.confirmed().single().category)
     }
-    @Test fun manualTagsStayUnconfirmedUntilThumbsUp() {
+    @Test fun manualTagsConfirmImmediatelyAndEditingRevokesApproval() {
         val note=Message(text="Roadmap",category="thoughts")
         val engine=ChatEngine(ChatState(categories,listOf(note)))
         engine.tag(note.id,"work")
-        assertTrue(engine.confirmed().isEmpty())
+        assertEquals("work",engine.confirmed().single().category)
         engine.approve(note.id)
         assertEquals("work",engine.confirmed().single().category)
         engine.edit(note.id,"The roadmap was revised")
@@ -48,13 +48,13 @@ class ChatPolicyTest {
         assertEquals(listOf(deleted),engine.expire(1000+RETENTION_MS))
         assertEquals(listOf(active),engine.active())
     }
-    @Test fun removingCategoryKeepsActiveAndDeletedMessagesWithoutOldApproval() {
+    @Test fun removingCategoryKeepsRecordsAndConfirmsTheChosenReplacement() {
         val engine=ChatEngine(ChatState(categories,listOf(Message(text="Update",category="work",approved=true),Message(text="Older",category="work",deleted=1000))))
         engine.removeCategory("work","thoughts")
         assertEquals(2,engine.state.messages.size)
-        assertTrue(engine.state.messages.all { it.category=="thoughts" && !it.approved })
+        assertTrue(engine.state.messages.all { it.category=="thoughts" && it.approved })
         assertTrue(engine.state.categories.none { it.id=="work" })
-        assertTrue(engine.confirmed().isEmpty())
+        assertEquals(1,engine.confirmed().size)
     }
     @Test fun revokingApprovalInvalidatesFittedHead() {
         val note=Message(text="Roadmap",category="work",approved=true)

@@ -3,4 +3,10 @@
     <string name="todo_title">To-do</string>
     <string name="todo_empty">No tasks</string>
     <string name="todo_toggle">Toggle task completion</string>
+    <plurals name="note_count">
+        <item quantity="one">%d note</item>
+        <item quantity="other">%d notes</item>
+    </plurals>
+    <string name="note_preview_page">%1$s · %2$d/%3$d</string>
+    <string name="note_preview_swipe">%1$s · swipe preview</string>
 </resources>

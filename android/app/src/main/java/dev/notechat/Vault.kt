@@ -77,8 +77,8 @@ class Vault(private val context: Context, private val keyPrefix: String = "note-
         val cipher = cipher(true)
         atomic(snapshot, cipher.iv + cipher.doFinal(StateJson.encode(state)))
     }
-    @Synchronized fun importMedia(input: InputStream, name: String, mime: String, duration: Long = 0): Attachment {
-        val id = java.util.UUID.randomUUID().toString()
+    @Synchronized fun importMedia(input: InputStream, name: String, mime: String, duration: Long = 0, id: String = java.util.UUID.randomUUID().toString()): Attachment {
+        require(id.matches(Regex("[a-f0-9-]{36}")))
         val file = File(media, id)
         val cipher = cipher(true)
         var count = 0L
@@ -108,6 +108,7 @@ class Vault(private val context: Context, private val keyPrefix: String = "note-
             return CipherInputStream(raw, cipher(false, iv))
         } catch (error: Exception) { raw.close(); throw error }
     }
+    fun hasMedia(attachment: Attachment) = attachment.file.matches(Regex("[a-f0-9-]{36}")) && File(media,attachment.file).exists()
     fun removeMedia(attachment: Attachment) { if (attachment.file.matches(Regex("[a-f0-9-]{36}"))) File(media, attachment.file).delete() }
     @Synchronized fun close() { dataKey?.fill(0); dataKey = null }
     private fun readWrapped() = synchronized(diskGuard) { wrapped.readFully() }

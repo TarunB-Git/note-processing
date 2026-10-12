@@ -25,3 +25,7 @@ archive/v1/models/v2/
 
 .*/
 !/.github/
+
+note-chat-backup-*.zip
+note-chat-model-*.zip
+keystore-base64*.txt

@@ -16,3 +16,13 @@ Vosk API and optional small English model: Alpha Cephei Inc., Apache License 2.0
 https://github.com/alphacep/vosk-api
 JNA: Java Native Access contributors, Apache License 2.0 (dual licensed).
 https://github.com/java-native-access/jna
+
+Material Design icons: Copyright Google LLC, Apache License 2.0.
+Category vectors adapted from https://github.com/google/material-design-icons.
+
+Google ML Kit language identification / translation and Google Play services
+text recognition are Google SDKs governed by their own terms, not Apache 2.0.
+Optional MODs process input on-device; SDK performance and usage metrics are
+sent to Google. Translation/OCR models download only when enabled or requested.
+https://developers.google.com/ml-kit/terms
+https://developers.google.com/android/guides/overview

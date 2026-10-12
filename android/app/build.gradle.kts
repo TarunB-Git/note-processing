@@ -18,8 +18,8 @@ android {
         applicationId = "dev.notechat"
         minSdk = 30
         targetSdk = 35
-        versionCode = 5
-        versionName = "1.2.2"
+        versionCode = 8
+        versionName = "1.5.0"
         testInstrumentationRunner = "dev.notechat.RuntimeChecks"
         ndk { abiFilters += if (providers.gradleProperty("emulator").orNull == "true") listOf("arm64-v8a", "x86_64") else listOf("arm64-v8a") }
     }
@@ -61,6 +61,9 @@ val verifyReleaseSigning by tasks.registering {
 tasks.matching { it.name == "preReleaseBuild" }.configureEach { dependsOn(verifyReleaseSigning) }
 
 dependencies {
+    implementation("com.google.mlkit:translate:17.0.3")
+    implementation("com.google.android.gms:play-services-mlkit-language-id:17.0.0")
+    implementation("com.google.android.gms:play-services-mlkit-text-recognition:19.0.1")
     implementation("com.alphacephei:vosk-android:0.3.75")
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.recyclerview:recyclerview:1.2.1")

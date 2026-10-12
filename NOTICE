@@ -9,3 +9,10 @@ Historical material in archive/v1/ is excluded from this license grant.
 Third-party code, models, and datasets retain their original licenses and
 attributions. Android dependency notices are included in
 android/app/src/main/assets/NOTICE.txt with the corresponding license texts.
+
+Material Design icons: Copyright Google LLC, Apache License 2.0.
+Category vectors adapted from https://github.com/google/material-design-icons.
+
+Google ML Kit and Google Play services dependencies retain their own terms.
+They are not covered by the project's Apache 2.0 license.
+https://developers.google.com/ml-kit/terms

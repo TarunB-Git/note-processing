@@ -26,6 +26,19 @@ class MarkdownText(context:Context, open:(String)->Unit) {
         }).build()
     fun render(view:MessageText, source:String, query:String, open:(String)->Unit) {
         val output=SpannableStringBuilder(renderer.toMarkdown(source))
+        Regex("\\[\\[([^]\\n]+)]]").findAll(output.toString()).toList().asReversed().forEach { match ->
+            val begin=match.range.first; val end=match.range.last+1
+            val spans=output.getSpans(begin,end,Any::class.java)
+            if(spans.none { it is ClickableSpan || it.javaClass.simpleName.contains("Code") }) {
+                val parts=match.groupValues[1].split('|',limit=2)
+                val label=parts.last()
+                output.replace(begin,end,label)
+                output.setSpan(object:URLSpan("notechat-md:${android.net.Uri.encode(parts.first())}") {
+                    override fun onClick(widget:android.view.View) { open(url) }
+                    override fun updateDrawState(paint:TextPaint) { paint.color=blue; paint.isUnderlineText=false }
+                },begin,begin+label.length,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            }
+        }
         for(link in TextLinks.find(output.toString())) {
             val existing=output.getSpans(link.start,link.end,ClickableSpan::class.java)
             val code=output.getSpans(link.start,link.end,Any::class.java).any { it.javaClass.simpleName.contains("Code") }

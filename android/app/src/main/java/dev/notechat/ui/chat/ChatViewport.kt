@@ -13,7 +13,7 @@ import android.widget.ImageButton
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class ChatViewport(context: Context, val recycler: RecyclerView, private val ids: List<String>, private val colors: UiColors) : FrameLayout(context) {
+class ChatViewport(context: Context, val recycler: RecyclerView, private var ids: List<String>, private val colors: UiColors) : FrameLayout(context) {
     private var focusedId: String? = null
     private var focusUntil = 0L
     val latest = ImageButton(context)
@@ -26,15 +26,11 @@ class ChatViewport(context: Context, val recycler: RecyclerView, private val ids
             setImageDrawable(ChatIcon("latest", colors.muted))
             val circle = GradientDrawable().apply { shape = GradientDrawable.OVAL; setColor(this@ChatViewport.colors.surface) }
             background = RippleDrawable(ColorStateList.valueOf(colors.selected), circle, null)
-            elevation = dp(4).toFloat(); setPadding(dp(10), dp(10), dp(10), dp(10))
+            elevation = dp(4).toFloat(); setPadding(dp(8), dp(8), dp(8), dp(8))
             visibility = View.GONE
-            setOnClickListener {
-                val manager = recycler.layoutManager as LinearLayoutManager
-                if (ids.lastIndex - manager.findLastVisibleItemPosition() > 20) manager.scrollToPosition((ids.lastIndex - 8).coerceAtLeast(0))
-                recycler.post { recycler.smoothScrollToPosition(ids.lastIndex) }
-            }
+            setOnClickListener { goLatest(true) }
         }
-        addView(latest, LayoutParams(dp(44), dp(44), Gravity.END or Gravity.BOTTOM).apply {
+        addView(latest, LayoutParams(dp(36), dp(36), Gravity.END or Gravity.BOTTOM).apply {
             rightMargin = dp(12); bottomMargin = dp(12)
         })
         recycler.addOnScrollListener(object : RecyclerView.OnScrollListener() {
@@ -43,7 +39,24 @@ class ChatViewport(context: Context, val recycler: RecyclerView, private val ids
         recycler.addOnLayoutChangeListener { _, _, _, _, _, _, _, _, _ -> updateLatest() }
     }
     fun updateLatest() {
-        latest.visibility = if (ids.isNotEmpty() && recycler.canScrollVertically(1)) View.VISIBLE else View.GONE
+        val last=(recycler.layoutManager as LinearLayoutManager).findLastVisibleItemPosition()
+        latest.visibility = if (last>=0 && ids.lastIndex-last>=10) View.VISIBLE else View.GONE
+    }
+    fun updateIds(next: List<String>) { ids=next; updateLatest() }
+    fun goLatest(smooth: Boolean = false) {
+        if(ids.isEmpty())return
+        val manager=recycler.layoutManager as LinearLayoutManager
+        if(smooth) {
+            if(ids.lastIndex-manager.findLastVisibleItemPosition()>20)manager.scrollToPosition((ids.lastIndex-8).coerceAtLeast(0))
+            recycler.post { recycler.smoothScrollToPosition(ids.lastIndex) }
+        } else {
+            manager.scrollToPosition(ids.lastIndex)
+            recycler.post {
+                manager.findViewByPosition(ids.lastIndex)?.let { view ->
+                    recycler.scrollBy(0,(view.bottom-(recycler.height-recycler.paddingBottom)).coerceAtLeast(0))
+                }
+            }
+        }
     }
     fun reveal(id: String, highlight: Boolean) {
         val index = ids.indexOf(id)
